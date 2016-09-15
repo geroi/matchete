@@ -1,0 +1,20 @@
+.row
+  .row
+    .col-md-12
+      .row
+        .col-md-4
+          %img.img-circle{:src => "#{@player.avatar.url(:'200')}", :style => "width: 200px; height: 200px;"}/
+        .col-md-8
+          %h1= @player.name
+          %p
+            - @player.types.each do |type|
+              %span.label.label-default{:style => "background-color: #{random_color}"}= type.name
+  .row
+    .col-md-12
+      = render partial: "/teams/user_teams", locals: {teams: @player.owned_teams}
+  .row
+    .col-md-12
+      = render partial: "/teams/participated_teams", locals: {teams: @player.participated_teams}
+  .row
+    .col-md-12
+      = render partial:"common/individual_games_list", locals: {games: @player.participated_with_hosted_games}

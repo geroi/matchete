@@ -1,0 +1,62 @@
+/ локальные переменные teams
+.ibox
+  - teams.each do |team|
+    .ibox-content.hidden
+      %h5
+        = team.name
+      .backlogo{:style => "width: 300px; height: 300px;"}
+      :css
+        .backlogo::after {
+          content: "";
+          opacity: 0.2;
+          background-image: '#{team.logo.url}';
+          background-repeat:no-repeat;
+          background-position: 50% 50%;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          position: absolute;
+          z-index: -1;
+          width: 100%;
+          height: 100%;
+        }
+    .ibox-content
+      .row
+        .col-lg-4
+          %img.img-rounded{:src => "#{team.logo.url}", :style => "width: 150px; height: 150px;"}/
+        .col-lg-8
+          .row
+            .col-lg-6
+              = render partial: 'common/widget', locals:{bg_style:'navy-bg', fa:'fa-crosshairs', num:team.games.size, title:'Игр cыграно'}
+            .col-lg-6
+              = render partial: 'common/widget', locals:{bg_style:'navy-bg', fa:'fa-crosshairs', num:team.address, title:'Город'}
+            .col-lg-6
+              = render partial: 'common/widget', locals:{bg_style:'navy-bg', fa:'fa-crosshairs', num:team.type.name, title:'Спорт'}
+            .col-lg-6
+              = render partial: 'common/widget', locals:{bg_style:'navy-bg', fa:'fa-crosshairs', num:team.players.count, title:'Игроков'}
+          %span.label.label-default=team.type.name.mb_chars.upcase
+      .team-members
+        - team.players.each do |player|
+          %a{href: player_path(player)}
+            %img.img-circle{:src => "#{player.avatar.url(:small)}"}/
+      = link_to 'Просмотр', team_path(team), method: :get, class: 'btn btn-default'
+      = link_to 'Редактировать', edit_team_path(team), method: :get, class: 'btn btn-default'
+      = button_to 'Удалить', team_path(team), method: :delete, class: 'btn btn-default'
+/ - unless teams.empty?
+/   .row
+/     .col-md-1
+/     .col-md-1
+/     .col-md-3
+/       %p Название
+/     .col-md-4
+/       %p Игроки
+/     .col-md-1
+/       %p
+/     .col-md-1
+/       %p
+/     .col-md-1
+/       %p
+  
+/ - else
+/   %p.text-center Вы еще не создали ни одной команды

@@ -1,0 +1,8 @@
+- teams_ary = []
+- teams.each do |team|
+  - tr = [team.name,
+  - button_to('Просмотр', team_path(team), method: :get, class: 'btn btn-primary'),
+  - button_to('Выслать заявку', become_teammate_team_path(team, current_player), class: 'btn btn-primary')]
+  - teams_ary.push tr
+#search-results
+  = table_tag data_array: teams_ary, headings: ['Название','','']

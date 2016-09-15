@@ -1,0 +1,58 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idi,:geometry{;I"
+Point;T:coordinates[f55.8517179800387f37.3579187820923:properties{	:balloonContentHeaderI"O<div class='row'>
+    <div class='col-md-4'>
+        <a href='39'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/39'>
+            <p>
+                <strong>ГБОУ СОШ №1191</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"G<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Митинская улица, дом 48, корпус 2</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Митино"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/39' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T{	;I"Feature;T;
+i[;{;I"
+Point;T;[f55.8360792557091f37.6523550234397;{	;I"x<div class='row'>
+    <div class='col-md-4'>
+        <a href='86'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/86'>
+            <p>
+                <strong>Площадка спортивная универсальная</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"A<div class='row'>
+<div class='col-md-12'>
+    <h5>плоскостное спортивное сооружение</h5>
+    <h5>проспект Мира, дом 161</h5>
+    <h5>"Северо-Восточный административный округ"</h5>
+    <h5>"район Ростокино"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/86' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"Eплоскостное спортивное сооружение;T:@created_atf1464150461.7898593:@expires_in0

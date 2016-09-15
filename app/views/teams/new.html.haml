@@ -1,0 +1,20 @@
+.row
+  .col-lg-12.col-md-12.col-sm-12.col-xs-12
+    .ibox
+      .ibox-title
+        %h4 Создать новую команду
+      .ibox-content
+        = form_for @team, html: {multipart: true} do |f|
+          .form-group
+            = label_tag :name, "Название"
+            = f.text_field :name, class: "form-control"
+          .form-group
+            - types_ary = []
+            - @types.each {|type| types_ary.push([type.name.to_s.capitalize, type.id]) }
+            = label_tag :type,'Вид спорта'
+            = select_tag 'team[type_id]', options_for_select(types_ary), class:'form-control'
+          .form-group
+            = label_tag :logo, "Логотип команды"
+            = f.file_field :logo
+          .form-group
+            = f.submit 'Создать', class: 'btn btn-primary'

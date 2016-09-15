@@ -1,0 +1,36 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "profile/friend_invitations.js"
+.ibox
+  .ibox-title
+    %h3 Заявки
+  .ibox-content
+    %table.table.table-hover
+      - unless incoming_invitations.empty?
+        - incoming_invitations.each do |invitation|
+          %tr
+            %td
+              %h1.glyphicon.glyphicon-import
+            %td
+              %img{:src => "#{invitation.player.avatar.url(:small)}"}/
+            %td
+              %p= invitation.player.name
+            %td
+              = render partial:'buttons/approve_friend', locals:{player: invitation.player}
+            %td
+              = render partial:'buttons/reject_friend', locals:{player: invitation.player}
+
+            - unless outgoing_invitations.empty?
+              - outgoing_invitations.each do |invitation|
+                %tr
+                  %td
+                    %h1.glyphicon.glyphicon-export
+                  %td
+                    %img{:src => "#{invitation.friend.avatar.url(:small)}"}/
+                  %td
+                    %p= invitation.friend.name
+                  %td
+                    .btn.btn-default.btn-disabled
+                      .fa.fa-send-o
+                      %span Отправлено
+                  %td
+                    = render partial:'buttons/reject_friend', locals:{player: invitation.player}

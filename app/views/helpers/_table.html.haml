@@ -1,0 +1,11 @@
+%h1= table_heading
+%table{:class => style_class, :id => id}
+  %thead
+    %tr
+      - headings.each do |heading|
+        %th= heading
+  %tbody
+    - data_array.each do |tr|
+      %tr
+        - tr.each do |td|
+          %td= td

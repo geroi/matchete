@@ -1,0 +1,37 @@
+- content_for :javascript_includes do
+  = javascript_include_tag 'teams/color_picker', debug: false
+.row
+  .col-md-12
+    %h1 Изменить данные команды
+.row
+  .col-md-12
+    .row
+      = form_for @team, method: :put, html: {multipart: true} do |f|
+        .col-md-8
+          = label_tag :name, "Название"
+          = f.text_field :name, class: "form-control"
+          = label_tag :address, "Город"
+          = f.text_field :address, class: "form-control"
+          .input-group
+            = label_tag :type, "Вид спорта"
+            %br/
+            = render partial: 'teams/edit_partials/type_radio', locals: {types: @types, current_type: @team.type_id}
+          = render partial: '/teams/edit_partials/color_picker', locals: {colors: @team.colors}
+          = f.submit 'Обновить', class: 'btn btn-primary'
+        .col-md-4
+          = label_tag :team_logo, "Логотип команды"
+          = image_tag @team.logo.url(:medium)
+          = f.file_field :logo, class: 'btn btn-primary'
+.row
+  .col-md-12
+    .row
+      .col-md-8
+        = render partial: 'teams/partials/edit_players_list', locals: {players: @team.players, team: @team}
+      .col-md-4
+        %h2 Пригласить
+        = react_component('TeamPlayerSearchForm', source: '/teams/search_players_for_team', team: @team, authenticity_token: form_authenticity_token )
+.row
+  .col-md-6
+    = render partial: 'teams/claims', locals:{team: @team}
+  .col-md-6
+    = render partial: 'teams/invitations', locals:{team: @team}

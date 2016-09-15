@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idi":geometry{;I"
+Point;T:coordinates[f55.9260140491652f37.5421049066172:properties{	:balloonContentHeaderI"O<div class='row'>
+    <div class='col-md-4'>
+        <a href='29'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/29'>
+            <p>
+                <strong>ГБОУ СОШ №2044</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"T<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Дмитровское шоссе, дом 165Е, корпус 8</h5>
+    <h5>"Северо-Восточный административный округ"</h5>
+    <h5>"район Северный"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/29' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T:@created_atf1463588339.8796206:@expires_in0

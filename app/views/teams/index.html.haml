@@ -1,0 +1,9 @@
+.row
+  .col-lg-12.col-md-12.col-sm-12.col-xs-12
+    .ibox
+      .ibox-title
+        %h4 Команды пользователя
+      .ibox-content
+        = link_to 'Создать команду', new_team_path, class: 'btn btn-primary'
+    = render partial: 'teams/user_teams', locals: {teams: @user_teams}
+    = render partial: 'teams/participated_teams', locals: {teams: @participated_teams}

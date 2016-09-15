@@ -1,0 +1,6 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "profile/friend_search.js"
+= form_tag(profile_look_for_friends_path, class:'form', remote: true, id:'search') do
+  = text_field_tag 'name', nil, class: "form-control"
+  = submit_tag "Найти", :id => "submit", :name => "submit", :class => "btn btn-primary"
+#search_results

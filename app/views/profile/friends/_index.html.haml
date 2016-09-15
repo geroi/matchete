@@ -1,0 +1,18 @@
+/ friends
+.ibox
+  .ibox-title
+    %h3 Друзья
+  .ibox-content
+    %table.table.table-hover
+      - friends.each do |friend|
+        %tr
+          %td
+          %td
+            %img{:src => "#{friend.avatar.url(:small)}"}/
+          %td
+            %p= friend.name
+          %td
+            = render partial:"/buttons/show_player", locals: {player: friend}
+          %td
+            = render partial:"/buttons/delete_friend", locals: {player: friend}
+

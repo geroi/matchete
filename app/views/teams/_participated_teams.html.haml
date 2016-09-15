@@ -1,0 +1,34 @@
+/ локальные переменные teams
+%h3 Участник команд
+- unless teams.empty?
+  .row
+    .col-md-1
+    .col-md-1
+    .col-md-3
+      %p Название
+    .col-md-4
+      %p Игроки
+    .col-md-1
+      %p
+    .col-md-1
+      %p
+    .col-md-1
+      %p
+  .row
+    - teams.each do |team|
+      .col-md-1
+        %img.img-circle{:src => "#{team.logo.url}", :style => "width: 50px; height: 50px;"}/
+      .col-md-1
+        %img.img-circle{:src => "#{team.type.logo.url}", :style => "width: 50px; height: 50px;"}/
+      .col-md-3
+        = team.name
+      .col-md-4
+        - team.players.each do |player|
+          %img{:src => "#{player.avatar.url(:small)}"}/
+      .col-md-1
+      .col-md-1
+        = link_to 'Просмотр', team_path(team), method: :get, class: 'btn btn-sm btn-default'
+      .col-md-1
+        = button_to 'Удалить', delete_teammate_team_path(team, current_player), method: :delete, class: 'btn btn-sm btn-default'
+- else
+  %p.text-center Вы не участвуете ни в одной команде.

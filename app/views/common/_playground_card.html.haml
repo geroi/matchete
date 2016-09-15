@@ -1,0 +1,13 @@
+/ playground
+%table.table.table-hover
+  = render partial: 'common/playground_card_facility_row', locals: {playground:playground, name:'Адрес', method_name: 'address', glyphicon: ''}
+  = render partial: 'common/playground_card_facility_row', locals: {playground:playground, name:'Округ', method_name: 'adm_area', glyphicon: ''}
+  = render partial: 'common/playground_card_facility_row', locals: {playground:playground, name:'Освещение', method_name: 'lighting', glyphicon: ''}
+  = render partial: 'common/playground_card_facility_row', locals: {playground:playground, name:'E-mail', method_name: 'email', glyphicon: ''}
+  = render partial: 'common/playground_card_facility_row', locals: {playground:playground, name:'Тип сооружения', method_name: 'facility_type', glyphicon: ''}
+  = render partial: 'common/playground_card_facility_row', locals: {playground:playground, name:'Сайт', method_name: 'website', glyphicon: ''}
+  = render partial: 'common/playground_card_facility_row', locals: {playground:playground, name:'Телефон', method_name: 'phone', glyphicon: ''}
+  = render partial: 'common/playground_card_boolean_row', locals: {playground:playground, name:'Прокат', method_name: 'has_rental'}
+  = render partial: 'common/playground_card_boolean_row', locals: {playground:playground, name:'Раздевалка', method_name: 'has_dressing_room'}
+  = render partial: 'common/playground_card_boolean_row', locals: {playground:playground, name:'Туалет', method_name: 'has_toilet'}
+  = render partial: 'common/playground_card_boolean_row', locals: {playground:playground, name:'Пункт первой помощи', method_name: 'has_first_aid'}

@@ -1,0 +1,85 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU"
+  = javascript_include_tag 'games/map_to_show', debug: false
+#map.map-fixed
+.row
+  .col-md-6.col-lg-6.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    = render partial:"/common/user_games_list_with_heading", locals: {games: @created_games, heading: 'Созданные мной индивидуальные игры', actions: {edit: true, show: true, delete: true, show_on_map: true}}
+.row
+  .col-md-6.col-lg-6.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    = render partial:"/common/user_games_list_with_heading", locals: {games: @created_team_games, heading: 'Созданные мной командные игры', actions: {edit: true, show: true, delete: true, show_on_map: true}}
+    
+.row
+  .col-md-6.col-lg-6.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    .ibox
+      .ibox-content
+        %table.table.table-hover
+          %h1 Участник игр
+          %thead
+            %tr
+              %th Название
+              %th Создатель
+              %th Вид игры
+              %th Площадка
+              %th Время
+              %th Команда
+              %th Команда
+          %tbody
+            - @participated_games.each do |game|
+              - if game.individual
+                %tr
+                  %td= game.name
+                  %td= game.host.name
+                  %td= game.type.name
+                  %td= game.playground.name
+                  %td= game.game_date_time
+                  %td
+                    - game.players.each do |player|
+                      %p= player.name
+                  %td= link_to  'Просмотр', game_path(game), class:'btn btn-primary'
+              - else
+                %td= game.name
+                %td= game.host.name
+                %td= game.type.name
+                %td= game.playground.name
+                %td= game.game_date_time
+                %td= game.first_team.name
+                %td= game.second_team.name
+                %td= link_to  'Просмотр', game_path(game), class:'btn btn-primary'
+.row
+  .col-md-6.col-lg-6.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    .ibox
+      .ibox-content
+        %h1 Заявки поданы в игры
+        %table.table.table-hover
+          %thead
+            %tr
+              %th Название
+              %th Создатель
+              %th Вид игры
+              %th Площадка
+              %th Время
+              %th Команда
+              %th Команда
+          %tbody
+            - @claimed_games.each do |game|
+              %tr
+                - if game.individual
+                  %td= game.name
+                  %td= game.host.name
+                  %td= game.type.name
+                  %td= game.playground.name
+                  %td= game.game_date_time
+                  %td
+                    - game.players.each do |player|
+                      %p= player.name
+                  %td= link_to  'Просмотр', game_path(game), class:'btn btn-primary'
+                - else
+                  %td= game.name
+                  %td= game.host.name
+                  %td= game.type.name
+                  %td= game.playground.name
+                  %td= game.game_date_time
+                  %td= game.first_team.name
+                  %td= game.second_team.name
+                  %td= link_to  'Просмотр', game_path(game), class:'btn btn-primary'

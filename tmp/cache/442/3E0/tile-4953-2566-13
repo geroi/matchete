@@ -1,0 +1,232 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idi:geometry{;I"
+Point;T:coordinates[f55.796098057836f37.6624261797588:properties{	:balloonContentHeaderI"Y<div class='row'>
+    <div class='col-md-4'>
+        <a href='18'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/18'>
+            <p>
+                <strong>Парк «Сокольники»</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"f<div class='row'>
+<div class='col-md-12'>
+    <h5>парк (озелененная городская территория)</h5>
+    <h5>улица Сокольнический Вал, дом 1, строение 1</h5>
+    <h5>"Восточный административный округ"</h5>
+    <h5>"район Сокольники"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/18' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"Nпарк (озелененная городская территория);T{	;I"Feature;T;
+i<;{;I"
+Point;T;[f55.7895972194361f37.7401562005117;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='55'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/55'>
+            <p>
+                <strong>ГБОУ Школа №1362</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"9<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Лечебная улица, дом 20</h5>
+    <h5>"Восточный административный округ"</h5>
+    <h5>"район Соколиная Гора"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/55' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i@;{;I"
+Point;T;[f55.7893122011282f37.7410198718146;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='59'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/59'>
+            <p>
+                <strong>ГБОУ Школа №1362</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"9<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Лечебная улица, дом 20</h5>
+    <h5>"Восточный административный округ"</h5>
+    <h5>"район Соколиная Гора"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/59' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+iG;{;I"
+Point;T;[f55.8066990376376f37.708551720485;{	;I"t<div class='row'>
+    <div class='col-md-4'>
+        <a href='66'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/66'>
+            <p>
+                <strong>ГБОУ Гимназия №1797 «Богородская»</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"?<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>1-я Гражданская улица, дом 96</h5>
+    <h5>"Восточный административный округ"</h5>
+    <h5>"район Богородское"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/66' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+iR;{;I"
+Point;T;[f55.8069527553532f37.7094127095785;{	;I"t<div class='row'>
+    <div class='col-md-4'>
+        <a href='77'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/77'>
+            <p>
+                <strong>ГБОУ Гимназия №1797 «Богородская»</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"?<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>1-я Гражданская улица, дом 96</h5>
+    <h5>"Восточный административный округ"</h5>
+    <h5>"район Богородское"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/77' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+iS;{;I"
+Point;T;[f55.7286989382608f37.671836034406;{	;I"R<div class='row'>
+    <div class='col-md-4'>
+        <a href='78'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/78'>
+            <p>
+                <strong>ГБОУ Школа №498</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"<<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>2-я Дубровская улица, дом 3</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Таганский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/78' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+iV;{;I"
+Point;T;[f55.8065913118042f37.7080018676368;{	;I"t<div class='row'>
+    <div class='col-md-4'>
+        <a href='81'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/81'>
+            <p>
+                <strong>ГБОУ Гимназия №1797 «Богородская»</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"?<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>1-я Гражданская улица, дом 96</h5>
+    <h5>"Восточный административный округ"</h5>
+    <h5>"район Богородское"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/81' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i`;{;I"
+Point;T;[f55.7858348918404f37.6848642640107;{	;I"}<div class='row'>
+    <div class='col-md-4'>
+        <a href='91'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/91'>
+            <p>
+                <strong>ГБОУ гимназия №1530 «Школа Ломоносова»</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"1<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Гастелло, дом 3</h5>
+    <h5>"Восточный административный округ"</h5>
+    <h5>"район Сокольники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/91' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T:@created_atf1464150460.80805:@expires_in0

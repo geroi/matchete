@@ -1,0 +1,11 @@
+/ players, game
+.row
+  .col-md-12.center-block
+    - game.players.each do |player|
+      .row
+        .col-lg-12
+          %a{href: "/#{player.id}"}= player_avatar player, :small
+      .row
+        .col-lg-12
+          %a{href: "/#{player.id}"}
+            %h4.text-left= player.name

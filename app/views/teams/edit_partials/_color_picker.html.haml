@@ -1,0 +1,16 @@
+/ colors
+.row
+  %div
+    %h4 Командные цвета
+  .row
+    - colors.each_with_index do |color, index|
+      .col-md-4
+        .dropdown
+          %a.dropdown-toggle.btn.btn-default{"data-toggle" => "dropdown", :style => "background-color:#{color.color}; width: 100%;"}
+            %span.glyphicon.glyphicon-tint
+          %ul.dropdown-menu{"aria-labelledby" => "dLabel", :role => "menu", :style => "width: 100px;"}
+            - colors_ary = %W( #f96302 #ffed38 #e5e111 #cee007 #339e35 #60afdd #9b4f96 #fc0093 #c6c699 #d11600 #FFFFFF #000000 )
+            - colors_ary.each do |pallette_color|
+              %li
+                .panel.color-panel{:style => "background-color:#{pallette_color}"}
+                  %input{:name => "colors[#{color.id}]", :type => "radio", :value => pallette_color}/

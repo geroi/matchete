@@ -1,0 +1,27 @@
+.team::after {
+  content: "";
+  opacity: 0.2;
+  background-image: inherit;
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.team-color-panel {
+  background-color: attr(data-color);
+  height: 30px;
+  width: 100%;
+}
+
+.team-color-box div {
+  margin: 0px 0px;
+}
+
+.more-games-button{
+  width: 100%;
+}

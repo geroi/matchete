@@ -1,0 +1,21 @@
+class CallbacksController < Devise::OmniauthCallbacksController
+  	def github
+	    @user = User.from_omniauth(request.env["omniauth.auth"])
+	    sign_in_and_redirect @user
+  	end
+
+	def vkontakte
+	    @user = User.from_omniauth(request.env["omniauth.auth"])
+	    sign_in_and_redirect @user
+  	end
+
+	def facebook
+	    @user = User.from_omniauth(request.env["omniauth.auth"])
+	    sign_in_and_redirect @user
+  	end
+
+  	def mailru
+	    @user = User.from_omniauth(request.env["omniauth.auth"])
+	    sign_in_and_redirect @user
+  	end
+end

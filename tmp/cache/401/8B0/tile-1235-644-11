@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idiB:geometry{;I"
+Point;T:coordinates[f55.5331072600335f37.4462878679916:properties{	:balloonContentHeaderI"Y<div class='row'>
+    <div class='col-md-4'>
+        <a href='61'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/61'>
+            <p>
+                <strong>дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"B<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>посёлок Воскресенское, дом 32</h5>
+    <h5>"Новомосковский административный округ"</h5>
+    <h5>"поселение Воскресенское"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/61' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"*спортивная площадка;T:@created_atf1463588353.5298398:@expires_in0

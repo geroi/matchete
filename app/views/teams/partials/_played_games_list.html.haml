@@ -1,0 +1,13 @@
+/ games
+.col-md-12
+  .row
+    .col-md-12.col-md-offset-2
+      %h3
+        Последние игры
+  - games.each do |game|
+    .row
+      = render partial: '/teams/partials/played_game', locals: {game: game}
+  .row
+    .col-md-8.col-md-offset-2
+      %button#more_games_btn.btn.btn-default.glyphicon.glyphicon-plus.more-games-button
+        Показать больше игр

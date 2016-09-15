@@ -1,0 +1,19 @@
+= nav_bar static: :top, brand: "MATCHETE", responsive: true, fluid: true do
+  = menu_group do
+    = menu_item "Главная", root_path
+    = menu_divider
+    = drop_down "Игра" do
+      = menu_item "Мои игры", user_games_path
+      = menu_item "Найти игру", find_game_path
+      = menu_item "Создать игру", new_game_path
+      = menu_item "Создать командную игру", new_team_game_path
+  = menu_group pull: :right do
+    - if user_signed_in?
+      %li
+        %a{:href => profile_path, :style => "padding: 9px 0px;"}
+          = image_tag current_player.avatar.url(:medium), class: 'img-circle avatar-small'
+      = menu_item "#{current_player.name}", profile_path
+      = menu_item 'Выйти', destroy_user_session_path, :method => :delete
+    - else
+      = menu_item 'Войти', new_user_session_path
+      = menu_item 'Зарегистрироваться', new_user_registration_path

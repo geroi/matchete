@@ -1,0 +1,23 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU", debug: false
+  = javascript_include_tag 'games/map_to_show', debug: false
+  = javascript_include_tag "games/show.js", debug: false
+#map.map-fixed
+.row
+  .col-md-6.col-md-offset-1
+    .ibox
+      .ibox-title
+        %h5= @playground.name.mb_chars.capitalize
+      .ibox-content
+        .hidden{'data-playground': @playground.to_json}
+        = render partial:"/common/playground_card", locals: {playground: @playground}
+      - unless @playground.photo.empty?
+        .ibox-footer
+          .ibox-title
+            %h4 Фото с площадки
+          .ibox-content
+            .demo-gallery
+              %ul#lightgallery.list-unstyled.row
+                %li.col-xs-6.col-sm-4.col-md-3{"data-src" => "http://op.mos.ru/MEDIA/showFile?id=#{@playground.photo}"}
+                  %a{:href => ""}
+                    %img.img-box.img-responsive{:src => "http://op.mos.ru/MEDIA/showFile?id=#{@playground.photo}"}

@@ -1,0 +1,60 @@
+.row
+  .col-md-12.col-lg-4.col-sm-12.col-xs-12
+    .ibox
+      .ibox-content.text-center.p-lg{style:'height:400px;'}
+        %h1= @player.name
+        %img.img-circle.circle-border.m-b-md{:src => "#{@player.avatar.url(:'200')}"}/
+        %p
+          - @player.types.each do |type|
+            %span.btn.btn-primary.btn-outline
+              = type.name.mb_chars.upcase
+        = link_to profile_edit_path, class: 'btn btn-default' do
+          %span.glyphicon.glyphicon-pencil 
+          ИЗМЕНИТЬ ДАНННЫЕ
+  .col-md-12.col-lg-4.col-sm-12.col-xs-12
+    .row
+      .ibox
+        .col-md-6
+          = render partial: 'common/widget', locals:{bg_style:'lazur-bg', fa:'fa-crosshairs', num:@player.games.count, title:'Игр создано'}
+        .col-md-6
+          = render partial: 'common/widget', locals:{bg_style:'lazur-bg', fa:'fa-trophy', num:999, title: 'Побед'}
+        .col-md-6
+          = render partial: 'common/widget', locals:{bg_style:'lazur-bg', fa:'fa-users', num:@player.friends.count, title: 'Друзей'}
+        .col-md-6
+          = render partial: 'common/widget', locals:{bg_style:'lazur-bg', fa:'fa-soccer-ball-o', num:999, title: 'Площадок'}
+        .col-md-6
+          = render partial: 'common/widget', locals:{bg_style:'lazur-bg', fa:'fa-flag', num:1, title: 'Команд'}
+
+  .clearfix.visible-md-block
+
+  .col-md-12.col-lg-4.col-sm-12.col-xs-12
+    .row
+      .col-md-12
+        .ibox{style:'height:400px;'}
+          .ibox-title
+            %h5 Поиск друзей
+          .ibox-content{style:'height:350px;'}
+            = react_component('SearchFriendsForm', source: '/profile/search', authenticity_token: form_authenticity_token )
+  
+  .clearfix.visible-sm-block.visible-xs-block
+
+  .col-md-12.col-lg-12.col-sm-12.col-xs-12
+    .ibox
+      .ibox-title
+        %h5
+          Пользовательские команды
+        .ibox-tools
+          = render partial:"/buttons/create_team"
+          = render partial:"/buttons/search_team"
+
+  .col-md-6.col-lg-6.col-sm-12.col-xs-12
+    = render partial: "/teams/user_teams", locals: {teams: @player.owned_teams}
+
+  .col-md-6.col-lg-6.col-sm-12.col-xs-12
+    = render partial: "/teams/participated_teams", locals: {teams: @player.participated_teams}
+  
+  .clearfix.visible-lg-block.visible-md-block
+  .col-md-6.col-lg-6.col-sm-12.col-xs-12
+    = render partial:"/profile/friends/index", locals: {friends: @player.friends}
+  .col-md-6.col-lg-6.col-sm-12.col-xs-12
+    = render partial:"/profile/invitations", locals: {incoming_invitations: @player.incoming_invitations, outgoing_invitations: @player.outgoing_invitations}

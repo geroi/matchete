@@ -1,0 +1,4 @@
+- players.each do |player|
+  %tr
+    %td= player.name
+    %td= button_to 'Добавить в игру', participate_in_game_path(player_id: player.id, id: game_id), remote: true, class: 'btn btn-primary'

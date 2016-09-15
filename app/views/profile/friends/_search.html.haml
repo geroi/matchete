@@ -1,0 +1,18 @@
+%table.table.table-hover
+  %thead
+    %tr
+      %th Имя
+      %th Добавить в друзья
+  %tbody
+    - @players.each do |player|
+      %tr
+        %td= player.name
+        %td
+          - if current_user.player.friends_with? player
+            %td= button_to 'В друзьях', "#", disabled: true, class: 'btn btn-success'
+          - elsif current_user.player.invitation_exists_to? player
+            %td= button_to 'Заявка отправлена', "#", disabled: true, class: 'btn btn-default'
+          - elsif current_user.player.invitation_exists_from? player
+            %td= button_to 'Подтвердить дружбу', approve_profile_friend_path(player), remote: true, data: {:type => 'approve'}, class: 'btn btn-default'
+          - else
+            %td= button_to 'Добавить', invite_profile_friend_path(player), remote: true, data: {:type => 'invite'}, class: 'btn btn-primary'

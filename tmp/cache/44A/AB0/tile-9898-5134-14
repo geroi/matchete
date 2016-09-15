@@ -1,0 +1,2733 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[c{	;I"Feature;T:idi:geometry{;I"
+Point;T:coordinates[f55.7784925475525f37.6482466907613:properties{	:balloonContentHeaderI"R<div class='row'>
+    <div class='col-md-4'>
+        <a href='13'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/13'>
+            <p>
+                <strong>ГБОУ СПО ЖК №52</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"~<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>Каланчёвская улица, дом 26, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/13' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"dучреждение среднего профессионального образования;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7773366783306f37.593169573699;{	;I"Q<div class='row'>
+    <div class='col-md-4'>
+        <a href='172'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/172'>
+            <p>
+                <strong>ГБОУ МЦДТДиМ</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"b<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение (центр) дополнительного образования</h5>
+    <h5>улица Александра Невского, дом 4</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/172' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"\учреждение (центр) дополнительного образования;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7791338336822f37.5151604579695;{	;I"P<div class='row'>
+    <div class='col-md-4'>
+        <a href='177'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/177'>
+            <p>
+                <strong>ГБОУ СОШ №141</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"+<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Зорге, дом 4</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/177' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7771235255346f37.5936550535306;{	;I"Q<div class='row'>
+    <div class='col-md-4'>
+        <a href='222'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/222'>
+            <p>
+                <strong>ГБОУ МЦДТДиМ</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"b<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение (центр) дополнительного образования</h5>
+    <h5>улица Александра Невского, дом 4</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/222' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"\учреждение (центр) дополнительного образования;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7775558768959f37.5926572717771;{	;I"Q<div class='row'>
+    <div class='col-md-4'>
+        <a href='224'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/224'>
+            <p>
+                <strong>ГБОУ МЦДТДиМ</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"b<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение (центр) дополнительного образования</h5>
+    <h5>улица Александра Невского, дом 4</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/224' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"\учреждение (центр) дополнительного образования;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7710202491079f37.5849784998619;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='272'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/272'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"'<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Тишинская площадь, дом 6</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Пресненский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/272' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7710248988719f37.6762320532413;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='686'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/686'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"C<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Плетешковский переулок, дом 3А, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/686' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7707407162839f37.5700870351795;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='689'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/689'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"C<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Пресненский Вал, дом 38, строение 4</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Пресненский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/689' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7764809456865f37.6846721269209;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='691'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/691'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"'<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Бакунинская улица, дом 23-41</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/691' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7739469869819f37.6942688276321;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='700'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/700'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I";<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Рубцовская набережная, дом 2, корпус 3</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/700' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7780857850899f37.6393551411171;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='715'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/715'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I".<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Астраханский переулок, дом 1/15</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Мещанский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/715' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7702849010088f37.5747769396534;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='718'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/718'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"M<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Большой Тишинский переулок, дом 26, корпус 13-14</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Пресненский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/718' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7703836325352f37.579723557954;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='751'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/751'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"5<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Большая Грузинская улица, дом 39</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Пресненский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/751' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7812387874752f37.671815681056;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='754'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/754'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"C<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Русаковская улица, дом 2/1, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/754' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7728964046374f37.5842391830532;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='755'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/755'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"I<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Большая Грузинская улица, дом 63, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Пресненский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/755' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7723649760959f37.6150486470393;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='765'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/765'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"D<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Большой Каретный переулок, дом 8, строение 2</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/765' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.780896892227f37.6008572312716;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='767'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/767'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"6<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Новосущёвская улица, дом 15, корпус 2</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/767' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7743809392819f37.5828590943957;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='769'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/769'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"A<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Грузинский Вал, дом 26, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Пресненский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/769' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7708339977978f37.6660148118473;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='771'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/771'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"?<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Новая Басманная улица, дом 31, строение 3</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/771' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+iG;{;I"
+Point;T;[f55.7701761823188f37.6776308184744;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='839'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/839'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I""<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Бауманская улица, дом 40</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/839' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+iI;{;I"
+Point;T;[f55.7746087603661f37.6772955389528;{	;I"[<div class='row'>
+    <div class='col-md-4'>
+        <a href='841'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/841'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I""<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Бауманская улица, дом 22</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/841' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i^;{;I"
+Point;T;[f55.7705250673611f37.6396457706645;{	;I"U<div class='row'>
+    <div class='col-md-4'>
+        <a href='862'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/862'>
+            <p>
+                <strong>ГБОУ Школа №1284</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"`<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Садовая-Спасская улица, дом 8, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/862' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+if;{;I"
+Point;T;[f55.7721634484148f37.6253270557413;{	;I"U<div class='row'>
+    <div class='col-md-4'>
+        <a href='870'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/870'>
+            <p>
+                <strong>ГБОУ Школа №2054</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"2<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Трубная улица, дом 36</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Мещанский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/870' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+it;{;I"
+Point;T;[f55.7745775494536f37.5909586468272;{	;I"U<div class='row'>
+    <div class='col-md-4'>
+        <a href='884'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/884'>
+            <p>
+                <strong>ГБОУ лицей №1574</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"X<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>2-я Тверская-Ямская улица, дом 46, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/884' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7766272543436f37.604709738233;{	;I"U<div class='row'>
+    <div class='col-md-4'>
+        <a href='906'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/906'>
+            <p>
+                <strong>ГБОУ Лицей №1501</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"Q<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Долгоруковская улица, дом 6, строение 2</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/906' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7795263716686f37.6136272339753;{	;I"U<div class='row'>
+    <div class='col-md-4'>
+        <a href='911'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/911'>
+            <p>
+                <strong>ГБОУ Лицей №1501</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"A<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Никоновский переулок, дом 19/22</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/911' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7738728557717f37.6430040734177;{	;I"j<div class='row'>
+    <div class='col-md-4'>
+        <a href='913'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/913'>
+            <p>
+                <strong>ГБОУ Пушкинский лицей №1500</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"[<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Скорняжный переулок, дом 3, строение 2</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/913' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i2;{;I"
+Point;T;[f55.7711841876128f37.4917857758347;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='1330'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1330'>
+            <p>
+                <strong>ГБОУ Лицей №1560</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"Y<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Мнёвники, дом 7, корпус 5</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1330' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i6;{;I"
+Point;T;[f55.7748275475535f37.4856209077192;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='1334'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1334'>
+            <p>
+                <strong>ГБОУ Лицей №1560</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"Z<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Мнёвники, дом 14, корпус 1</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1334' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7748698927533f37.4927966149134;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='1482'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1482'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"E<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>проспект Маршала Жукова, дом 17</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1482' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7805114232589f37.4958231885662;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='1483'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1483'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"D<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Новохорошевский проезд, дом 12</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1483' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7795960640583f37.4897592525267;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='1531'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1531'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"Q<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Демьяна Бедного, дом 20, корпус 4</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1531' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i%;{;I"
+Point;T;[f55.7746082854215f37.4865291704097;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='1573'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1573'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"@<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Демьяна Бедного, дом 7</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1573' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i+;{;I"
+Point;T;[f55.7813441316195f37.485631641072;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='1579'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1579'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"K<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Маршала Тухачевского, дом 15</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1579' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i3;{;I"
+Point;T;[f55.7741316307505f37.4952695038912;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='1587'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1587'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"D<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Мнёвники, дом 10, корпус 1</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1587' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+in;{;I"
+Point;T;[f55.7763473573084f37.5508498115207;{	;I"�<div class='row'>
+    <div class='col-md-4'>
+        <a href='1646'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1646'>
+            <p>
+                <strong>ГБОУ Школа №1288 имени Героя Советского Союза Н.В. Троян</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"9<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Поликарпова, дом 3А</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1646' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+iL;{;I"
+Point;T;[f55.780048067988f37.5681446360587;{	;I"j<div class='row'>
+    <div class='col-md-4'>
+        <a href='1868'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/1868'>
+            <p>
+                <strong>ГБОУ кадетская школа №1784</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"><div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Скаковая улица, дом 20, строение 1</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/1868' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7804711168889f37.495416434618;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='2041'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2041'>
+            <p>
+                <strong>ГБОУ Лицей №1560</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"Z<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Новохорошевский проезд, дом 12</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2041' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7732273617241f37.6029986606117;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2062'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2062'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"'<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Долгоруковская улица, дом 5</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2062' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7742497886318f37.6439071835673;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2072'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2072'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I".<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Докучаев переулок, дом 13</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2072' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7769762448546f37.5480454190204;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2074'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2074'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"(<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>1-й Хорошёвский проезд, дом 6</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2074' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+iO;{;I"
+Point;T;[f55.774144365141f37.5395617670574;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2127'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2127'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"1<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Хорошёвское шоссе, дом 5, корпус 1</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2127' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+if;{;I"
+Point;T;[f55.7725297530893f37.5149602061386;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2150'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2150'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I";<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>1-я Магистральная улица, дом 22, корпус 1</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2150' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i	;{;I"
+Point;T;[f55.7785334544704f37.4984350799729;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2305'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2305'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"C<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Новохорошевский проезд, дом 8</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2305' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�	;{;I"
+Point;T;[f55.774977896577f37.5300779742552;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2454'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2454'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I""<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Хорошёвское шоссе, дом 19</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2454' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�	;{;I"
+Point;T;[f55.776750238118f37.5108876944347;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2467'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2467'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I""<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Хорошёвское шоссе, дом 43</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2467' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i
+;{;I"
+Point;T;[f55.7758133209287f37.575443697907;{	;I"a<div class='row'>
+    <div class='col-md-4'>
+        <a href='2566'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2566'>
+            <p>
+                <strong>Спортивная площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Нижняя улица, дом 11</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2566' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i
+
+;{;I"
+Point;T;[f55.7813508207699f37.5790019499107;{	;I"a<div class='row'>
+    <div class='col-md-4'>
+        <a href='2570'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2570'>
+            <p>
+                <strong>Спортивная площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"4<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Ленинградский проспект, дом 14, корпус 1</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2570' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i&
+;{;I"
+Point;T;[f55.7775919875135f37.5343464442652;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2598'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2598'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"2<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Хорошёвское шоссе, дом 50, корпус 1</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2598' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i1
+;{;I"
+Point;T;[f55.7774379183622f37.5710819484747;{	;I"a<div class='row'>
+    <div class='col-md-4'>
+        <a href='2609'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2609'>
+            <p>
+                <strong>Спортивная площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"$<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Скаковая улица, дом 34, корпус 3</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2609' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�
+;{;I"
+Point;T;[f55.7767432182171f37.6262403280913;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2782'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2782'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I":<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>переулок Васнецова, дом 15, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Мещанский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2782' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�
+;{;I"
+Point;T;[f55.7758494388372f37.6394138376136;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2798'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2798'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"M<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>1-й Коптельский переулок, дом 26, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2798' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.772990677926f37.6888604751683;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='2843'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2843'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I".<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Большая Почтовая улица, дом 2/4</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2843' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i:;{;I"
+Point;T;[f55.7766738615802f37.547299561719;{	;I"l<div class='row'>
+    <div class='col-md-4'>
+        <a href='2874'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/2874'>
+            <p>
+                <strong>ГАПОУ ПК №8 им. И.Ф. Павлова</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"n<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>1-й Хорошёвский проезд, дом 8, строение 1</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/2874' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"dучреждение среднего профессионального образования;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7758138136033f37.6090949534988;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='3290'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3290'>
+            <p>
+                <strong>ГБОУ СОШ №1331</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"[<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Краснопролетарская улица, дом 6А, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3290' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7743441893577f37.5339496550865;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='3303'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3303'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"(<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>2-й Хорошёвский проезд, дом 5</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3303' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7771992863916f37.5576863643104;{	;I"a<div class='row'>
+    <div class='col-md-4'>
+        <a href='3304'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3304'>
+            <p>
+                <strong>Спортивная площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I""<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Беговая улица, дом 18, корпус 2</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3304' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i`;{;I"
+Point;T;[f55.778896835327f37.5150531696081;{	;I"R<div class='row'>
+    <div class='col-md-4'>
+        <a href='3424'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3424'>
+            <p>
+                <strong>ГБОУ СОШ №141</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"+<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Зорге, дом 4</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3424' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7808500910725f37.5572299050897;{	;I"a<div class='row'>
+    <div class='col-md-4'>
+        <a href='3497'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3497'>
+            <p>
+                <strong>Спортивная площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Беговая улица, дом 13</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3497' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7816911001079f37.6436661198803;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='3535'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3535'>
+            <p>
+                <strong>ГБОУ СОШ №1297</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"N<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Большая Переяславская улица, дом 8А</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Мещанский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3535' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7781833687462f37.6885246819186;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='3538'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3538'>
+            <p>
+                <strong>ГБОУ СПО КЛП №5</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"r<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>Бакунинская улица, дом 55, строение 4</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3538' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"dучреждение среднего профессионального образования;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7780404306023f37.4993620967087;{	;I"X<div class='row'>
+    <div class='col-md-4'>
+        <a href='3572'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3572'>
+            <p>
+                <strong>ГБОУ СПО КМБ №48</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"}<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>Новохорошевский проезд, дом 1</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3572' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"dучреждение среднего профессионального образования;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7763947953513f37.644387554971;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='3601'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3601'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"?<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Живарев переулок, дом 8, строение 3</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3601' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.779700096156f37.6643480955442;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='3605'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3605'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"W<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Верхняя Красносельская улица, дом 32, строение 3</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3605' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+iD;{;I"
+Point;T;[f55.7748848175645f37.4984132977069;{	;I"X<div class='row'>
+    <div class='col-md-4'>
+        <a href='3652'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3652'>
+            <p>
+                <strong>ГБОУ СПО КМБ №48</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"m<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>улица Мнёвники, дом 4</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3652' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"dучреждение среднего профессионального образования;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7705049320849f37.489112545741;{	;I"x<div class='row'>
+    <div class='col-md-4'>
+        <a href='3768'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3768'>
+            <p>
+                <strong>Универсальная дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"P<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Демьяна Бедного, дом 2, корпус 2</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3768' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7760031396569f37.5974809916815;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='3835'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3835'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Фадеева, дом 10</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3835' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7769922052141f37.6233025791916;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='3846'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3846'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I":<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Олимпийский проспект, дом 10, корпус 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Мещанский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3846' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+iF;{;I"
+Point;T;[f55.7704616537038f37.640007868881;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='3910'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/3910'>
+            <p>
+                <strong>ГБОУ Школа №1284</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"`<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Садовая-Спасская улица, дом 8, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/3910' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7726148376324f37.6251875808737;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='4009'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4009'>
+            <p>
+                <strong>ГБОУ Школа №2054</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"2<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Трубная улица, дом 36</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Мещанский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4009' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7798226437107f37.5880038203068;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='4043'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4043'>
+            <p>
+                <strong>ГБОУ лицей №1574</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"8<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>4-й Лесной переулок, дом 6</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Тверской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4043' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7753307720106f37.5000051774941;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4244'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4244'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"D<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>проспект Маршала Жукова, дом 3</h5>
+    <h5>"Северо-Западный административный округ"</h5>
+    <h5>"район Хорошёво-Мнёвники"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4244' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7819914315439f37.6732926822298;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4290'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4290'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"-<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Русаковская улица, дом 6</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4290' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7770872896522f37.6842474939968;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4380'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4380'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"1<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Переведеновский переулок, дом 8</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4380' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7732370264463f37.6739806410146;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4381'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4381'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"7<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Нижняя Красносельская улица, дом 44</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4381' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7731599853264f37.5260251469736;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4491'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4491'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"+<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Магистральный переулок, дом 5</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4491' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7789398397472f37.5265405049423;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4526'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4526'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"2<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Хорошёвское шоссе, дом 68, корпус 1</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4526' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7806702425983f37.5181521087237;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4527'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4527'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"/<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Куусинена, дом 4А, корпус 3</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4527' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7816597994927f37.5271067940439;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4545'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4545'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"=<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Полины Осипенко, дом 22, строение 4</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4545' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7731284625392f37.690969836891;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='4564'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4564'>
+            <p>
+                <strong>ГБОУ СОШ №2105</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"9<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Рубцов переулок, дом 10/14</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4564' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7775968166404f37.6595186605407;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4627'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4627'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"1<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Краснопрудная улица, дом 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4627' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i(;{;I"
+Point;T;[f55.7738170138953f37.6871724198223;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4648'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4648'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"C<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Большая Почтовая улица, дом 1/33, строение 2</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4648' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i*;{;I"
+Point;T;[f55.77665680818f37.690083006732;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4650'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4650'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"C<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>улица Фридриха Энгельса, дом 51, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4650' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i-;{;I"
+Point;T;[f55.780567946548f37.6441093881882;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4653'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4653'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"F<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Большая Переяславская улица, дом 6, корпус 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Мещанский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4653' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+iL;{;I"
+Point;T;[f55.7772252224655f37.5540271008009;{	;I"W<div class='row'>
+    <div class='col-md-4'>
+        <a href='4684'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4684'>
+            <p>
+                <strong>ГБОУ Лицей №1550</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"/<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Поликарпова, дом 9</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"район Беговой"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4684' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+ik;{;I"
+Point;T;[f55.776700601933f37.6916141949272;{	;I"U<div class='row'>
+    <div class='col-md-4'>
+        <a href='4715'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4715'>
+            <p>
+                <strong>ГБОУ СПО ПТ №2</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"{<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>Большая Почтовая улица, дом 35, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Басманный район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4715' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"dучреждение среднего профессионального образования;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7733513566761f37.5340654203617;{	;I"]<div class='row'>
+    <div class='col-md-4'>
+        <a href='4760'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4760'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"*<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>2-й Хорошёвский проезд, дом 7А</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4760' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7780356528759f37.5320103375579;{	;I"�<div class='row'>
+    <div class='col-md-4'>
+        <a href='4806'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4806'>
+            <p>
+                <strong>ГБОУ Школа №1288 имени Героя Советского Союза Н.В. Троян</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"L<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Хорошёвское шоссе, дом 62, строение 2</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4806' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7783343211006f37.5326012637244;{	;I"�<div class='row'>
+    <div class='col-md-4'>
+        <a href='4811'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4811'>
+            <p>
+                <strong>ГБОУ Школа №1288 имени Героя Советского Союза Н.В. Троян</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"L<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Хорошёвское шоссе, дом 62, строение 2</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4811' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7781265946818f37.5330802078353;{	;I"�<div class='row'>
+    <div class='col-md-4'>
+        <a href='4812'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4812'>
+            <p>
+                <strong>ГБОУ Школа №1288 имени Героя Советского Союза Н.В. Троян</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"L<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Хорошёвское шоссе, дом 62, строение 2</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4812' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.777546227513f37.5319523880798;{	;I"�<div class='row'>
+    <div class='col-md-4'>
+        <a href='4813'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4813'>
+            <p>
+                <strong>ГБОУ Школа №1288 имени Героя Советского Союза Н.В. Троян</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"L<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Хорошёвское шоссе, дом 62, строение 2</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4813' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i�;{;I"
+Point;T;[f55.7777479822759f37.5334324104445;{	;I"�<div class='row'>
+    <div class='col-md-4'>
+        <a href='4822'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4822'>
+            <p>
+                <strong>ГБОУ Школа №1288 имени Героя Советского Союза Н.В. Троян</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"L<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Хорошёвское шоссе, дом 62, строение 2</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4822' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i;{;I"
+Point;T;[f55.7739799688194f37.6423174279102;{	;I"l<div class='row'>
+    <div class='col-md-4'>
+        <a href='4891'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4891'>
+            <p>
+                <strong>ГБОУ Пушкинский лицей №1500</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"[<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Скорняжный переулок, дом 3, строение 2</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4891' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i~;{;I"
+Point;T;[f55.7743015638924f37.5426883458938;{	;I"|<div class='row'>
+    <div class='col-md-4'>
+        <a href='4990'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/4990'>
+            <p>
+                <strong>плоскостное спортивное сооружение</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"=<div class='row'>
+<div class='col-md-12'>
+    <h5>плоскостное спортивное сооружение</h5>
+    <h5>Хорошёвское шоссе, дом 22</h5>
+    <h5>"Северный административный округ"</h5>
+    <h5>"Хорошёвский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/4990' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"Eплоскостное спортивное сооружение;T:@created_atf1463414592.864399:@expires_in0

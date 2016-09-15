@@ -1,0 +1,81 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU", debug: false
+  = javascript_include_tag 'games/map_to_show', debug: false
+  = javascript_include_tag "games/show.js", debug: false
+- content_for :meta_tags do
+  %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
+  %meta{:content => "Поиграем в #{@game.type.name}?", :name => "title"}/
+  %meta{:content => "Ищу партнеров для игры", :name => "description"}/
+#map.map-fixed
+.row
+  .col-lg-6.col-lg-offset-1.col-md-6.col-md-offset-1.col-sm-6.col-sm-offset-1.col-xs-6.col-xs-offset-1
+    .ibox
+      .ibox-title
+        %h5 Игра #{@game.name}
+      .ibox-content
+        .hidden{'data-game': @game.to_json(include: {playground:{}, host_team: {methods: :logo}, visitor_team: {methods: :logo}, host: {methods: :avatar}})}
+        .row
+          .col-lg-3.col-md-12.col-sm-12.col-xs-12
+            = render partial: 'common/widget', locals:{bg_style:'', fa:'fa-futbol-o', num:@game.type.name, title:'Cпорт'}
+          .col-lg-3.col-md-12.col-sm-12.col-xs-12
+            = render partial: 'common/widget', locals:{bg_style:'', fa:'fa-calendar', num:@game.game_date_time.strftime('%d.%m'), title:'Дата'}
+          .col-lg-3.col-md-12.col-sm-12.col-xs-12
+            = render partial: 'common/widget', locals:{bg_style:'', fa:'fa-clock-o', num:@game.game_date_time.strftime('%H:%M'), title:'Время'}
+          .col-lg-3.col-md-12.col-sm-12.col-xs-12
+            = render partial:"common/game_spectator_actions", locals: {player: current_player, game: @game}
+            = render partial:"common/share_vk"
+            = render partial:"common/share_fb", locals: {page: request.original_url}
+      .ibox-content
+        = render partial:"/common/teams_vs", locals: {game: @game, host_team: @game.host_team, visitor_team: @game.visitor_team}
+      .ibox-footer
+        = render partial:"/common/playground_card", locals: {playground: @game.playground}
+.row
+  .col-lg-6.col-lg-offset-1.col-md-6.col-md-offset-1.col-sm-6.col-sm-offset-1.col-xs-6.col-xs-offset-1
+    = react_component 'ChatBox', game: @game, source: "/games/#{@game.id}/messages", messages: @game.time_ordered_messages.limit(5).reverse.to_json(include: :author), player: current_player, authenticity_token: form_authenticity_token      
+- unless @game.playground.photo.empty?
+  .row
+    .col-lg-6.col-lg-offset-1.col-md-6.col-md-offset-1.col-sm-6.col-sm-offset-1.col-xs-6.col-xs-offset-1
+      .ibox
+        .ibox-title
+          %h4 Фото с площадки
+        .ibox-content
+          .demo-gallery
+            %ul#lightgallery.list-unstyled.row
+              %li.col-xs-6.col-sm-4.col-md-3{"data-src" => "http://op.mos.ru/MEDIA/showFile?id=#{@game.playground.photo}"}
+                %a{:href => ""}
+                  %img.img-box.img-responsive{:src => "http://op.mos.ru/MEDIA/showFile?id=#{@game.playground.photo}"}
+/ - content_for :javascript_includes do
+/   = javascript_include_tag "//vk.com/js/api/share.js?93"
+/   = javascript_include_tag "games/show.js", debug: false
+/ - content_for :meta_tags do
+/   %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
+/   %meta{:content => "Поиграем в #{@game.type.name}?", :name => "title"}/
+/   %meta{:content => "Ищу партнеров для игры", :name => "description"}/
+/ .row
+/   .col-md-4
+/     %h4
+/       %span.label.label-info= @game.type.name
+/   .col-md-4
+/     .row
+/       .col-md-12
+/         %h3 Название
+/       .col-md-12
+/         = @game.name
+/   .col-md-4
+/     .row
+/       .col-md-12
+/         %h3 Дата и время
+/     .row
+/       .col-md-12
+/         = @game.game_date_time
+/ %br/
+/ .row
+/   .col-md-12
+/     = render partial:"/common/playground_card", locals: {playground: @game.playground}
+/ .row
+/   .col-md-12
+/     = render partial:"/common/teams_vs", locals: {game: @game, host_team: @game.host_team, visitor_team: @game.visitor_team}
+/ .row
+/   .col-md-12
+/     - unless @game.not_host? current_player
+/       = link_to 'Редактировать', edit_team_game_path(@game), class: 'btn btn-default'

@@ -1,0 +1,17 @@
+.row
+  .col-md-12
+    %h1 Игроки
+.row
+  .col-md-12
+    - game.players.each do |player|
+      - if player == game.host
+        .row
+          .col-md-6= player.name
+          .col-md-6
+            %div
+              %button.btn.btn-default
+                АДМИНИСТРАТОР
+      - else
+        .row
+          .col-md-6= player.name
+          .col-md-6= button_to 'Удалить участника', deny_participant_game_path(id: game.id, player_id: player.id), class: 'btn btn-default'

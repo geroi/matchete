@@ -1,0 +1,13 @@
+/ player,game
+.row
+  .col-md-12
+    - if game.not_host? current_player
+      - if game.claimers_and_players.include? current_player
+        = button_to 'Отклонить заявку', deny_participant_game_path(game, current_player), method: :post, class: 'btn btn-default btn-block'
+      - else
+        = button_to 'Принять участие', participate_in_game_path(game, current_player), method: :post, class: 'btn btn-default btn-block'
+    - else
+      - if game.individual?
+        = link_to 'Редактировать игру', edit_game_path(game), class: 'btn btn-default btn-block'
+      - else
+        = link_to 'Редактировать игру', edit_team_game_path(game), class: 'btn btn-default btn-block'

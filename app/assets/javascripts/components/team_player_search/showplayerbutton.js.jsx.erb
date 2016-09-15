@@ -1,0 +1,13 @@
+//props: Player
+var ShowPlayerButton = React.createClass({
+  render: function(){
+    return(
+    <form method="get" action={"/" + this.props.player.id}>
+      <button type="submit" className="btn btn-default btn-outline">
+      	<span className='glyphicon glyphicon-eye-open'></span> Профиль
+      </button>
+      <input type='hidden' name='authenticity_token' value={this.props.authenticity_token} />
+    </form>
+    )
+  }
+})

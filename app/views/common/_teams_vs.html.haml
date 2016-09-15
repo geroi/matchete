@@ -1,0 +1,45 @@
+/ 
+.row
+  .col-md-6.col-lg-6.col-sm-6.col-xs-6
+    .row
+      .col-md-4.col-lg-4.col-sm-4.col-xs-4
+        %h4= game.host_team_record.score
+      .col-md-4.col-lg-4.col-sm-4.col-xs-4
+        %h4= host_team.name
+      .col-md-4.col-lg-4.col-sm-4.col-xs-4
+        %img{:src => "#{host_team.logo.url(:small)}"}/
+  - if visitor_team
+    .col-md-6.col-lg-6.col-sm-6.col-xs-6
+      .row
+        .col-md-4.col-lg-4.col-sm-4.col-xs-4
+          %h4= game.visitor_team_record.score
+        .col-md-4.col-lg-4.col-sm-4.col-xs-4
+          %h4= visitor_team.name
+        .col-md-4.col-lg-4.col-sm-4.col-xs-4
+          %img{:src => "#{visitor_team.logo.url(:small)}"}/
+
+      / .col-md-3.col-lg-3.col-sm-3.col-xs-3
+      /   - host_team.players.each do |player|
+      /     .row
+      /       .col-md-10.col-lg-10.col-sm-10.col-xs-10
+      /         %h4.text-right= player.name
+      /       .col-md-2.col-lg-2.col-sm-2.col-xs-2
+      /         = player_avatar player, :small
+      / - if visitor_team
+      /   .col-md-12.col-lg-12.col-sm-12.col-xs-12
+      /     .row
+      /       .col-md-12.col-lg-12.col-sm-12.col-xs-12
+      /         .col-md-1.col-lg-1.col-sm-1.col-xs-1
+      /           %h1.text-center= game.visitor_team_record.score
+      /         .col-md-11.col-lg-11.col-sm-11.col-xs-11
+      /     .row
+      /       .col-md-3.col-lg-3.col-sm-3.col-xs-3
+      /         %img.img-circle{:height => "100", :src => "#{visitor_team.logo.url(:medium)}", :width => "100"}/
+      /       .col-md-9.col-lg-9.col-sm-9.col-xs-9.team{:style => "background-image: url(#{visitor_team.logo(:medium)}); background-repeat:no-repeat; background-position:1000px 1000px;"}
+      /         %h2.text-left= visitor_team.name
+      /     - visitor_team.players.each do |player|
+      /       .row
+      /         .col-md-2.col-lg-2.col-sm-2.col-xs-2
+      /           = player_avatar player, :small
+      /         .col-md-10.col-lg-10.col-sm-10.col-xs-10
+      /           %h4.text-left= player.name

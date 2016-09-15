@@ -1,0 +1,18 @@
+%table.table.table-hover
+  %thead
+    %tr
+      %th Имя
+      %th
+      %th
+  %tbody
+    - @friends.each do |friend|
+      - if friend.approved
+        %tr
+          %td= friend.name
+          %td
+          %td= link_to 'Удалить', profile_friend, class:'btn btn-primary'
+      - else
+        %tr
+          %td= friend.name
+          %td= link_to 'Принять', approve_profile_friend, class:'btn btn-primary'
+          %td= link_to 'Удалить', profile_friend, class:'btn btn-primary'

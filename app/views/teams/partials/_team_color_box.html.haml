@@ -1,0 +1,9 @@
+/ locals: team
+.row
+  .row
+    %h4 Цвета команды
+  .row
+    .team-color-box
+      - team.colors.each do |color|
+        .panel.team-color-panel{:style => "background-color: #{color.color}"}
+           

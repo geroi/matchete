@@ -1,0 +1,20 @@
+/ id, name
+.row
+  .col-md-12
+    %h2= heading
+    %hr/
+    .date-picker{"data-date" => "#{Date.today.to_time}"}
+      .date-container
+        %h3.date
+          %span.fa.fa-angle-left{"data-method" => "subtract", "data-toggle" => "datepicker", "data-type" => "d"}
+          %span.text 17th
+          %span.fa.fa-angle-right{"data-method" => "add", "data-toggle" => "datepicker", "data-type" => "d"}
+        %h2.month
+          %span.fa.fa-angle-left{"data-method" => "subtract", "data-toggle" => "datepicker", "data-type" => "M"}
+          %span.text December
+          %span.fa.fa-angle-right{"data-method" => "add", "data-toggle" => "datepicker", "data-type" => "M"}
+        %h3.year
+          %span.fa.fa-angle-left{"data-method" => "subtract", "data-toggle" => "datepicker", "data-type" => "y"}
+          %span.text 2014
+          %span.fa.fa-angle-right{"data-method" => "add", "data-toggle" => "datepicker", "data-type" => "y"}
+        %input.hidden{:id => id, :name => name, :type => "datetime"}/

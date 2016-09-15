@@ -1,0 +1,14 @@
+.row
+	.col-md-6
+		.ibox.float-e-margins
+			.ibox-title
+				%h5 hello
+			.ibox-content
+				%p 
+					world
+					hdahj
+					dskdjakd
+					dasdas
+					dsadasd
+	.col-md-6
+		= react_component 'ChatBox', game: @game, source: "/games/#{@game.id}/messages", messages: @game.time_ordered_messages.limit(5).reverse.to_json(include: :author), player: current_player, authenticity_token: form_authenticity_token			

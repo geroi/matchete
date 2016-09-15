@@ -1,0 +1,11 @@
+/ Objects: team
+/ team.attrs -> [logo, name, type.logo]
+#team_heading_logo.col-md-2
+  = image_tag team.logo.url(:thumb), class: 'img-circle'
+#team_heading_name.col-md-8
+  %h1.team_heading_name
+    = team.name
+  %h4
+    = team.address
+#team-heading-sport-type.col-md-2
+  = image_tag team.type.logo(:thumb), class: 'img-circle'

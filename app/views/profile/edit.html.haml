@@ -1,0 +1,28 @@
+- content_for :javascript_includes do
+  = javascript_include_tag 'profile/crop.js', debug: false
+.row
+  .col-md-12
+    .ibox.float-e-margins
+      .ibox-content
+        = form_for @player, url: profile_update_path, method: :put,  html: {multipart: true, class: 'form'} do |f|
+          = label_tag :name, "Имя"
+          = f.text_field :name, class: "form-control"
+          = label_tag :name, "Аватар"
+          -#= f.file_field :avatar, class: "form-control"
+          .row
+            .col-md-6
+              .image-crop
+                %img{:src => image_path(@player.avatar.url)}/
+            .col-md-6
+              %h4 Предпросмотр
+              .img-preview.img-preview-sm
+              .btn-group
+                %label.btn.btn-primary{:for => "inputImage", :title => "Загрузить изображение"}
+                  %input#inputImage.hide{:accept => "image/*", :name => "player[avatar]", :type => "file"}/
+                  Загрузить новое изображение
+              .btn-group
+                %button#zoomIn.btn.btn-white{:type => "button"} Увеличить
+                %button#zoomOut.btn.btn-white{:type => "button"} Уменьшить
+                %button#rotateLeft.btn.btn-white{:type => "button"} Поворот вправо
+                %button#rotateRight.btn.btn-white{:type => "button"} Поворот влево
+          = f.submit 'Обновить ', class: 'btn btn-primary'

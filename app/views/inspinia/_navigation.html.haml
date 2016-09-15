@@ -1,0 +1,46 @@
+%nav.navbar.navbar-fixed-top{:role => "navigation"}
+  .navbar-header
+    %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+      %i.fa.fa-reorder
+    %a.navbar-brand{:href => "/"} Matchete
+  #navbar.navbar-collapse.collapse
+    %ul.nav.navbar-nav
+      = drop_down "Игра" do
+        = menu_item "Мои игры", user_games_path
+        = menu_item "Найти игру", find_game_path
+        = menu_item "Создать игру", new_game_path
+        = menu_item "Создать командную игру", new_team_game_path
+      = drop_down "Команды" do
+        = menu_item "Найти команду", search_teams_path
+        = menu_item "Создать команду", new_team_path
+        = menu_item "Мои команды", teams_path
+      / %li.dropdown
+      /   %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+      /     Команды
+      /     %span.caret
+      /   %ul.dropdown-menu{:role => "menu"}
+      /     %li
+      /       %a{:href => ""} Menu item
+      / %li.dropdown
+      /   %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+      /     Турниры
+      /     %span.caret
+      /   %ul.dropdown-menu{:role => "menu"}
+      /     %li
+      /       %a{:href => ""} Menu item
+    %ul.nav.navbar-top-links.navbar-right
+      %form.navbar-form-custom{:action => "/", :method => "post", :role => "search"}
+        .form-group
+          %input#top-search.form-control{:name => "top-search", :placeholder => "Введите для поиска...", :type => "text", style: 'height: 50px;'}/
+      - if user_signed_in?
+        %li
+          %a{:href => profile_path, :style => "padding: 0px 0px;"}
+            = image_tag current_player.avatar.url(:medium), class: 'img-circle avatar-small'
+        = menu_item "#{current_player.name}", profile_path
+        %li
+          %a{:href => "#{destroy_user_session_path}", 'data-method': 'delete'}
+            %i.fa.fa-sign-out
+            Выйти
+      - else
+        = menu_item 'Войти', new_user_session_path
+        = menu_item 'Зарегистрироваться', new_user_registration_path

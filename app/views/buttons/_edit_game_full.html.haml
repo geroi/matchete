@@ -1,0 +1,9 @@
+/ game
+- if game.individual
+  = link_to edit_game_path(game), class:'btn btn-default btn-block' do
+    %span.glyphicon.glyphicon-pencil
+    %span Редактировать
+- else
+  = link_to edit_team_game_path(game), class:'btn btn-default btn-block' do
+    %span.glyphicon.glyphicon-pencil
+    %span Редактировать

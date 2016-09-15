@@ -1,0 +1,20 @@
+%h1 Принимают участие
+%table.table.table-hover
+  %thead
+    %tr
+      %th Имя игрока
+      %th Пригласить в игру
+  %tbody#existing_players
+    %tr
+      - @game.players.each do |player|
+        %tr
+          %td= player.name
+          %td= button_to 'Играет', '#', disabled: true, class: 'btn btn-success'
+          %td= button_to 'Отклонить', deny_participant_game_path(id: @game.id, player_id: player.id), remote: true, class: 'btn btn-default'
+  %tbody#search_result
+    = render :partial => 'players/search_result', locals: {players:{}, game_id: @game.id}
+%h1 Найти игрока
+= form_tag(look_for_players_path, remote: true, :id => 'players_search',:class => "form") do
+  = text_field_tag :name, nil, placeholder: 'Введите имя для поиска'
+  = hidden_field_tag 'game_id', "#{@game.id}"
+  = submit_tag 'Искать', class: 'btn btn-primary'

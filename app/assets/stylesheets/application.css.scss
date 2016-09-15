@@ -1,0 +1,80 @@
+	/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+
+ /*
+ * require jquery-ui
+ *= require font-awesome
+ *= require animate/animate.css
+ */
+ 
+@import "font-awesome";
+$border-radius-base: 0px;
+$border-radius-large: 0px;
+$border-radius-small: 0px;
+$btn-primary-border: darken(#428bca, 6.5%);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "jquery-ui";
+@import "map";
+@import "base";
+@import "chatbox";
+@import "teams/teams";
+@import "teams/color_picker";
+@import "datepicker";
+@import "game_search/partials/type_radio_small";
+@import "games/timepicker";
+
+// Variables, Mixins
+@import "inspinia/variables";
+@import "inspinia/mixins";
+
+// INSPINIA Theme Elements
+@import "inspinia/typography";
+@import "inspinia/navigation";
+@import "inspinia/top_navigation";
+@import "inspinia/buttons";
+@import "inspinia/badgets_labels";
+@import "inspinia/elements";
+@import "inspinia/sidebar";
+@import "inspinia/base";
+@import "inspinia/pages";
+@import "inspinia/chat";
+@import "inspinia/metismenu";
+@import "inspinia/spinners";
+
+// Landing page
+@import "inspinia/landing";
+
+// RTL Support
+@import "inspinia/rtl";
+
+// For demo only - config box style
+@import "inspinia/theme-config";
+
+// INSPINIA Skins
+@import "inspinia/skins";
+@import "inspinia/md-skin";
+
+// Media query style
+@import "inspinia/media";
+// Custom style
+// Your custom style to override base style
+@import "inspinia/custom";
+@import "game_search/bsdp";
+@import "cropper/cropper.min";
+@import "blueimp/lightgallery.min";
+

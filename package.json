@@ -1,0 +1,24 @@
+{
+  "name": "matchete",
+  "devDependencies" : {
+    "react": "latest",
+    "react-addons": "latest",
+    "react-addons-create-fragment": "latest",
+    "react-addons-pure-render-mixin": "latest",
+    "react-addons-transition-group": "latest",
+    "react-addons-update": "latest",
+    "react-tap-event-plugin": "latest",
+    "react-dom": "latest",
+    "rc-time-picker":"latest",
+    "browserify": "~> 10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "material-ui": "0.13.1",
+    "moment":"latest",
+    "jquery-ui":"latest",
+    "timepicker":"latest"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

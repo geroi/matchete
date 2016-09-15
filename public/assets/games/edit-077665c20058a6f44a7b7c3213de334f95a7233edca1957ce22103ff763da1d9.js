@@ -1,0 +1,1 @@
+$(document).ready(function(){$(document).on("ajax:success","#players_search",function(e,s,c,n){$("#search_result").html(n.responseText)})});

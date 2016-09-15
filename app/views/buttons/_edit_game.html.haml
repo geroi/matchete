@@ -1,0 +1,7 @@
+/ game
+- if game.individual
+  = link_to edit_game_path(game), class:'btn btn-default' do
+    %span.glyphicon.glyphicon-pencil
+- else
+  = link_to edit_team_game_path(game), class:'btn btn-default' do
+    %span.glyphicon.glyphicon-pencil

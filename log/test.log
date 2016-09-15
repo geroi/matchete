@@ -1,0 +1,155 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "tests"[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "players"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "games"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "tests"[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "players"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "games"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:18:51', '2016-04-14 17:18:51', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "tests"[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "players"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "games"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "tests"[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "players"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "games"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "games" ("created_at", "updated_at", "id") VALUES ('2016-04-14 17:19:13', '2016-04-14 17:19:13', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:05', '2016-04-14 17:23:05', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:05', '2016-04-14 17:23:05', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "games" ("id", "name", "player_id", "created_at", "updated_at") VALUES (1, 'superigra', 1, '2016-04-14 17:23:05', '2016-04-14 17:23:05')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:05', '2016-04-14 17:23:05', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:05', '2016-04-14 17:23:05', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("id", "name", "player_id", "created_at", "updated_at") VALUES (1, 'superigra', 1, '2016-04-14 17:23:05', '2016-04-14 17:23:05')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:06', '2016-04-14 17:23:06', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:06', '2016-04-14 17:23:06', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("id", "name", "player_id", "created_at", "updated_at") VALUES (1, 'superigra', 1, '2016-04-14 17:23:06', '2016-04-14 17:23:06')[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:06', '2016-04-14 17:23:06', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("name", "photo", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-04-14 17:23:06', '2016-04-14 17:23:06', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("id", "name", "player_id", "created_at", "updated_at") VALUES (1, 'superigra', 1, '2016-04-14 17:23:06', '2016-04-14 17:23:06')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "tests"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "games"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "games" ("id", "name", "player_id", "created_at", "updated_at") VALUES (1, 'superigra', 1, '2016-04-14 17:23:57', '2016-04-14 17:23:57')
+  [1m[36m (21.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+----------------------------------------------
+PlayersControllerTest: test_should_get_profile
+----------------------------------------------
+Processing by PlayersController#profile as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+----------------------------------------------------------------
+Users::OmniauthCallbacksControllerTest: test_should_get_facebook
+----------------------------------------------------------------
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-----------------------------------------------------------------
+Users::OmniauthCallbacksControllerTest: test_should_get_vkontakte
+-----------------------------------------------------------------
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------
+GameTest: test_should_have_name
+-------------------------------
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "games"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "games" ("id", "name", "player_id", "created_at", "updated_at") VALUES (1, 'superigra', 1, '2016-04-14 17:24:33', '2016-04-14 17:24:33')
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------
+GameTest: test_should_have_name
+-------------------------------
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "games"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "games" ("id", "name", "player_id", "created_at", "updated_at") VALUES (1, 'superigra', 1, '2016-04-14 17:24:57', '2016-04-14 17:24:57')
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------
+GameTest: test_should_have_name
+-------------------------------
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m

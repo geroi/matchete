@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("gotcha"),$(".dropdown-menu .color-panel").click(function(){$(this).children("input").prop("checked",!0),color=$(this).css("background-color"),$(this).closest(".dropdown").find("a").css({"background-color":color})})});

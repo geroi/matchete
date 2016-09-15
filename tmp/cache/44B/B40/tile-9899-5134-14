@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idi:geometry{;I"
+Point;T:coordinates[f55.7784925475525f37.6482466907613:properties{	:balloonContentHeaderI"R<div class='row'>
+    <div class='col-md-4'>
+        <a href='13'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/13'>
+            <p>
+                <strong>ГБОУ СПО ЖК №52</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"~<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>Каланчёвская улица, дом 26, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Красносельский район"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/13' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"dучреждение среднего профессионального образования;T:@created_atf1463588370.8998148:@expires_in0

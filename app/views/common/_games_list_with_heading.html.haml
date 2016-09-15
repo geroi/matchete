@@ -1,0 +1,26 @@
+/ heading, games, actions
+.ibox.float-e-margins
+  .ibox-title
+    %h5= heading
+    .ibox-tools
+      %a.close-link
+        %i.fa.fa-times
+  - unless games.empty?
+    .ibox-content
+      .row
+        .col-md-1.col-lg-1.col-sm-1.col-xs-1 Дата
+        .col-md-1.col-lg-1.col-sm-1.col-xs-1 Спорт
+        .col-md-1.col-lg-1.col-sm-1.col-xs-1 Создатель
+        .col-md-2.col-lg-2.col-sm-2.col-xs-2 Площадка
+        .col-md-4.col-lg-4.col-sm-4.col-xs-4 Состав
+        .col-md-3.col-lg-3.col-sm-3.col-xs-3 Действия
+    - games.each do |game|
+      .ibox-content
+        .row
+          .col-md-12.col-lg-12.col-sm-12.col-xs-12
+            = render partial:"/common/game_row", locals: {game: game, actions: actions}
+  - else
+    .ibox-content
+      .row
+        .col-md-12.col-lg-12.col-sm-12.col-xs-12
+          %span Игры отсутствуют.

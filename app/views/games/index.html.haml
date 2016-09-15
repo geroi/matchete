@@ -1,0 +1,16 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU"
+  = javascript_include_tag 'games/map_to_show', debug: false
+#map.map-fixed
+.row
+  .col-md-6.col-lg-6.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    = render partial:"/common/games_list_with_heading", locals: {games: @actual_games, heading: 'Актуальное', actions: {show: true, show_on_map: true}}
+.row
+  .col-md-6.col-lg-6.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    = render partial:"/common/games_list_with_heading", locals: {games: @actual_team_games, heading: 'Командные',actions: {show: true, show_on_map: true}}
+.row
+  .col-md-6.col-lg-6.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    = render partial:"/common/games_list_with_heading", locals: {games: @last_week_games, heading: 'За прошедшую неделю', actions: {show: true, show_on_map: true}}
+/ .row
+/   .col-md-12
+/     = render partial:"/common/game_box", locals: {game: @actual_games.first}

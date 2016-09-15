@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    = display_meta_tags
+    = yield :meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true, debug: false
+    = yield :javascript_includes
+    = csrf_meta_tags
+  %body
+    /
+      <div id="bg">
+      <img src='<haml_loud> asset_path(&#39;wall.jpg&#39;) </haml_loud>'>
+      </div>
+    = render partial:"/common/navigation_bar"
+    .container-fluid.main-container
+      .row
+        .col-md-8.col-md-offset-2
+          - if notice
+            .panel.panel-warning
+              .panel-heading Внимание
+              .panel-body
+                = notice
+          - if alert
+            .panel.panel-danger
+              .panel-heading Ошибка
+              .panel-body
+                = alert
+      = yield

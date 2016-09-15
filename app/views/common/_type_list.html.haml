@@ -1,0 +1,13 @@
+/ name, types, current_type, individual
+/ - types.each do |type|
+/   %label.radio-inline
+/     %input{:name => "", :type => "radio", selected: "#{current_type == type.id}", value: "#{type.id}"}
+/       = type.name
+/     %img{:src => "#{type.logo.url(:tiny)}"}
+- types_ary = []
+- types.each {|type| types_ary.push([type.name.to_s, type.id]) }
+- opts = options_for_select(types_ary, current_type)
+- if individual
+  = select_tag 'game[type_id]', opts, class:"form-control"
+- else
+  = select_tag 'team_game[type_id]', opts, class:"form-control"

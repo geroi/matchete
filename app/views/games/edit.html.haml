@@ -1,0 +1,47 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU"
+  = stylesheet_link_tag '//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css'
+  = javascript_include_tag "//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js", debug: false
+  = javascript_include_tag "games/timepicker.js", debug: false
+  = javascript_include_tag "games/date_time_picker.js", debug: false
+  / # = javascript_include_tag "games/date_range_picker.js", debug: false
+  = javascript_include_tag "games/edit.js", debug: false
+#map.map-fixed
+.row
+  .col-md-5.col-lg-5.col-md-offset-1.col-lg-offset-1.col-sm-5.col-xs-5.col-sm-offset-1.col-xs-offset-1
+    .ibox
+      .ibox-title
+        %h4 Изменить данные индивидуальной игры
+      .ibox-content
+        = form_for @game, method: :put do |f|
+          = label_tag :name, "Название"
+          = f.text_field :name, class: "form-control"
+          = label_tag :type, "Вид спорта"
+          = render partial: 'common/type_list', locals: {types: @types, current_type: @game.type_id, name: 'game[type_id]', individual: true}
+          
+          - opts = Rails.cache.fetch('playgrounds_select_tag_options') do
+            - playgrounds_ary = []
+            - @playgrounds.each {|playground| playgrounds_ary.push([playground.name.to_s, playground.id]) }
+            - options_for_select(playgrounds_ary)
+          = label_tag :playground_id, "Игровая площадка"
+          = select_tag 'game[playground_id]', opts, class:"form-control"
+
+          = label_tag :timepicker,'Дата'
+          %input#datepicker.datetime-input.ui-datepicker-calendar.form-control{:autocomplete => "off", :type => "text", :value => "#{@game.game_date_time.strftime('%d.%m.%Y')}"}/
+          = label_tag :timepicker,'Время'
+          %input#timepicker.time.ui-timepicker-input.datetime-input.form-control{:autocomplete => "off", :type => "text", :value => "#{@game.game_date_time.strftime('%H:%M')}"}/
+          %input#game_date_time.hidden{:name => "game[game_date_time]", :type => "datetime", :value => "#{Time.now.strftime('%Y-%m-%dT%H:%M')}"}/
+
+          = f.submit 'Обновить', class: 'btn btn-primary'
+    .ibox
+      .ibox-content
+        = render :partial => 'players/claims_list', locals: {game: @game}
+    .ibox
+      .ibox-content
+        = render :partial => 'players/invitations_list', locals: {game: @game}
+    .ibox
+      .ibox-content
+        = render :partial => 'players/players_list', locals: {game: @game}
+    .ibox
+      .ibox-content
+        = react_component('GamePlayerSearchForm', source: '/players/search', game: @game, authenticity_token: form_authenticity_token )

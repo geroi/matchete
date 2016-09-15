@@ -1,0 +1,871 @@
+I, [2016-03-31T18:26:11.311885 #12180]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-03-31 18:26:11 +0300
+I, [2016-03-31T18:26:11.341201 #12180]  INFO -- : Processing by GamesController#index as HTML
+I, [2016-03-31T18:26:11.348026 #12180]  INFO -- : Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T18:26:11.357716 #12180]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 18:26:11 +0300
+I, [2016-03-31T18:26:11.359932 #12180]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T18:26:11.389237 #12180]  INFO -- :   Rendered devise/shared/_links.html.erb (7.9ms)
+I, [2016-03-31T18:26:11.389336 #12180]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (12.5ms)
+I, [2016-03-31T18:26:11.397024 #12180]  INFO -- : Completed 200 OK in 37ms (Views: 24.4ms | ActiveRecord: 2.1ms)
+I, [2016-03-31T18:26:11.517868 #12180]  INFO -- : Started GET "/assets/application-281ef528a4699e2263c3dd9c07599987.css" for 127.0.0.1 at 2016-03-31 18:26:11 +0300
+F, [2016-03-31T18:26:11.518964 #12180] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-281ef528a4699e2263c3dd9c07599987.css"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+D, [2016-03-31T18:29:22.176195 #12312] DEBUG -- : Browserify: /home/fatloris/work/sport_app/node_modules/.bin/browserify --list -o "/home/fatloris/work/sport_app/tmp/cache/browserify-rails/output20160331-12312-15kgxes" -
+D, [2016-03-31T18:29:22.504047 #12312] DEBUG -- : Browserify: /home/fatloris/work/sport_app/node_modules/.bin/browserify  -o "/home/fatloris/work/sport_app/tmp/cache/browserify-rails/output20160331-12312-nsgd0n" -
+I, [2016-03-31T18:30:36.222285 #12844]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 18:30:36 +0300
+I, [2016-03-31T18:30:36.250268 #12844]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T18:30:36.288503 #12844]  INFO -- :   Rendered devise/shared/_links.html.erb (8.7ms)
+I, [2016-03-31T18:30:36.288589 #12844]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (13.7ms)
+I, [2016-03-31T18:30:36.296708 #12844]  INFO -- : Completed 200 OK in 46ms (Views: 26.4ms | ActiveRecord: 2.0ms)
+I, [2016-03-31T18:30:36.373107 #12844]  INFO -- : Started GET "/assets/application-70f96fc287995d5b5536330e0fe0e6f5.css" for 127.0.0.1 at 2016-03-31 18:30:36 +0300
+I, [2016-03-31T18:30:36.382106 #12844]  INFO -- : Started GET "/assets/wall-a941b28b8ec4aa27527f6fd938efa844.jpg" for 127.0.0.1 at 2016-03-31 18:30:36 +0300
+I, [2016-03-31T18:30:36.387081 #12844]  INFO -- : Started GET "/assets/application-ead40e693901705abd32e66e5ffd2652.js" for 127.0.0.1 at 2016-03-31 18:30:36 +0300
+I, [2016-03-31T18:30:36.637588 #12844]  INFO -- : Started GET "/assets/wall-a941b28b8ec4aa27527f6fd938efa844.jpg" for 127.0.0.1 at 2016-03-31 18:30:36 +0300
+I, [2016-03-31T19:42:04.547171 #16521]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-03-31 19:42:04 +0300
+I, [2016-03-31T19:42:04.571144 #16521]  INFO -- : Processing by GamesController#index as HTML
+I, [2016-03-31T19:42:04.577769 #16521]  INFO -- : Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T19:42:04.586179 #16521]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 19:42:04 +0300
+I, [2016-03-31T19:42:04.588174 #16521]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T19:42:04.617197 #16521]  INFO -- :   Rendered devise/shared/_links.html.erb (7.9ms)
+I, [2016-03-31T19:42:04.617288 #16521]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (12.5ms)
+I, [2016-03-31T19:42:04.623980 #16521]  INFO -- : Completed 200 OK in 36ms (Views: 22.9ms | ActiveRecord: 2.0ms)
+I, [2016-03-31T19:42:06.229673 #16521]  INFO -- : Started POST "/users/sign_in" for 127.0.0.1 at 2016-03-31 19:42:06 +0300
+I, [2016-03-31T19:42:06.230908 #16521]  INFO -- : Processing by Devise::SessionsController#create as HTML
+I, [2016-03-31T19:42:06.230969 #16521]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6oTMzjBDwwC28p1QrisWM1GK53N6LDgucseAoT6EeiuvNcCvqPBxmK39rBsPnzYZumD7uQCFgLeKfxWnl4a+4A==", "user"=>{"email"=>"alexander@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+D, [2016-03-31T19:42:06.236176 #16521] DEBUG -- :   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "alexander@mail.ru"]]
+D, [2016-03-31T19:42:06.296720 #16521] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2016-03-31T19:42:06.298560 #16521] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["current_sign_in_at", "2016-03-31 16:42:06.296177"], ["sign_in_count", 2], ["updated_at", "2016-03-31 16:42:06.296965"], ["id", 1]]
+D, [2016-03-31T19:42:06.300812 #16521] DEBUG -- :   [1m[35m (1.9ms)[0m  COMMIT
+I, [2016-03-31T19:42:06.303831 #16521]  INFO -- : Redirected to http://127.0.0.1:3000/
+I, [2016-03-31T19:42:06.303934 #16521]  INFO -- : Completed 302 Found in 73ms (ActiveRecord: 2.7ms)
+I, [2016-03-31T19:42:06.307188 #16521]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-03-31 19:42:06 +0300
+I, [2016-03-31T19:42:06.308062 #16521]  INFO -- : Processing by GamesController#index as HTML
+D, [2016-03-31T19:42:06.309077 #16521] DEBUG -- :   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.311282 #16521] DEBUG -- :   [1m[35mGame Load (0.2ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-03-31 00:00:00.000000')  ORDER BY "games"."game_date_time" ASC LIMIT 10  [["individual", "t"]]
+D, [2016-03-31T19:42:06.320061 #16521] DEBUG -- :   [1m[36mTeamGame Load (0.2ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-03-31 00:00:00.000000')  ORDER BY "games"."game_date_time" ASC LIMIT 10[0m  [["individual", "f"]]
+D, [2016-03-31T19:42:06.328430 #16521] DEBUG -- :   [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-03-24' and game_date_time < '2016-03-31')  [["individual", "t"]]
+D, [2016-03-31T19:42:06.329282 #16521] DEBUG -- :   [1m[36mTeamGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-03-24' and game_date_time < '2016-03-31')[0m  [["individual", "f"]]
+D, [2016-03-31T19:42:06.343401 #16521] DEBUG -- :   [1m[35mPlayer Load (0.2ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 5]]
+D, [2016-03-31T19:42:06.352290 #16521] DEBUG -- :   [1m[36mType Load (0.2ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.360880 #16521] DEBUG -- :   [1m[35mPlayground Load (0.2ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 63]]
+D, [2016-03-31T19:42:06.383948 #16521] DEBUG -- :   [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 11], ["approved", "t"]]
+I, [2016-03-31T19:42:06.385581 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.5ms)
+I, [2016-03-31T19:42:06.385631 #16521]  INFO -- :   Rendered common/_game_row.html.erb (50.2ms)
+D, [2016-03-31T19:42:06.386386 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 4]]
+D, [2016-03-31T19:42:06.386995 #16521] DEBUG -- :   [1m[36mType Load (0.1ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 2]]
+D, [2016-03-31T19:42:06.387636 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 76]]
+D, [2016-03-31T19:42:06.388744 #16521] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 20], ["approved", "t"]]
+I, [2016-03-31T19:42:06.389454 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.389500 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.8ms)
+D, [2016-03-31T19:42:06.390095 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 14]]
+D, [2016-03-31T19:42:06.390577 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 2]]
+D, [2016-03-31T19:42:06.391120 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 36]]
+D, [2016-03-31T19:42:06.392034 #16521] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 1], ["approved", "t"]]
+I, [2016-03-31T19:42:06.392584 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.392628 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.1ms)
+D, [2016-03-31T19:42:06.393224 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 9]]
+D, [2016-03-31T19:42:06.393753 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.394217 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 47]]
+D, [2016-03-31T19:42:06.395301 #16521] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 5], ["approved", "t"]]
+I, [2016-03-31T19:42:06.396065 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.396201 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.5ms)
+D, [2016-03-31T19:42:06.396880 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 4]]
+D, [2016-03-31T19:42:06.397345 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 2]]
+D, [2016-03-31T19:42:06.398047 #16521] DEBUG -- :   [1m[35mPlayground Load (0.2ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 87]]
+D, [2016-03-31T19:42:06.399171 #16521] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 16], ["approved", "t"]]
+I, [2016-03-31T19:42:06.399778 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.399893 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.5ms)
+D, [2016-03-31T19:42:06.400664 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 13]]
+D, [2016-03-31T19:42:06.401459 #16521] DEBUG -- :   [1m[36mType Load (0.1ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 4]]
+D, [2016-03-31T19:42:06.402287 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 49]]
+D, [2016-03-31T19:42:06.403782 #16521] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 8], ["approved", "t"]]
+I, [2016-03-31T19:42:06.404355 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.404397 #16521]  INFO -- :   Rendered common/_game_row.html.erb (4.4ms)
+D, [2016-03-31T19:42:06.405069 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 7]]
+D, [2016-03-31T19:42:06.405698 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.406450 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 88]]
+D, [2016-03-31T19:42:06.408797 #16521] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 13], ["approved", "t"]]
+I, [2016-03-31T19:42:06.409476 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.409607 #16521]  INFO -- :   Rendered common/_game_row.html.erb (5.1ms)
+D, [2016-03-31T19:42:06.410067 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 9]]
+D, [2016-03-31T19:42:06.410776 #16521] DEBUG -- :   [1m[36mType Load (0.1ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 3]]
+D, [2016-03-31T19:42:06.411372 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 57]]
+D, [2016-03-31T19:42:06.412868 #16521] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 18], ["approved", "t"]]
+I, [2016-03-31T19:42:06.413848 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.413909 #16521]  INFO -- :   Rendered common/_game_row.html.erb (4.2ms)
+D, [2016-03-31T19:42:06.414748 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 15]]
+D, [2016-03-31T19:42:06.415305 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 3]]
+D, [2016-03-31T19:42:06.415784 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 21]]
+D, [2016-03-31T19:42:06.416877 #16521] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 12], ["approved", "t"]]
+I, [2016-03-31T19:42:06.417725 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.417773 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.8ms)
+D, [2016-03-31T19:42:06.418416 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 9]]
+D, [2016-03-31T19:42:06.419110 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.419630 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 77]]
+D, [2016-03-31T19:42:06.421035 #16521] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2[0m  [["game_id", 3], ["approved", "t"]]
+I, [2016-03-31T19:42:06.421757 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.421799 #16521]  INFO -- :   Rendered common/_game_row.html.erb (4.0ms)
+I, [2016-03-31T19:42:06.421833 #16521]  INFO -- :   Rendered common/_games_list_with_heading.html.erb (87.4ms)
+D, [2016-03-31T19:42:06.423344 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:06.424135 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.425083 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", "36"]]
+D, [2016-03-31T19:42:06.442084 #16521] DEBUG -- :   [1m[36mTeam Load (0.3ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."host" = $2 LIMIT 1[0m  [["game_id", 24], ["host", "t"]]
+D, [2016-03-31T19:42:06.448337 #16521] DEBUG -- :   [1m[35mTeam Load (0.2ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 24], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:06.449010 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.449052 #16521]  INFO -- :   Rendered common/_game_row.html.erb (27.1ms)
+D, [2016-03-31T19:42:06.449544 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.449943 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:06.450426 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 24]]
+D, [2016-03-31T19:42:06.451252 #16521] DEBUG -- :   [1m[35mTeam Load (0.2ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."host" = $2 LIMIT 1  [["game_id", 29], ["host", "t"]]
+D, [2016-03-31T19:42:06.452178 #16521] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 29], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:06.452619 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.452659 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.5ms)
+D, [2016-03-31T19:42:06.453077 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:06.453445 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.453922 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 19]]
+D, [2016-03-31T19:42:06.454673 #16521] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."host" = $2 LIMIT 1[0m  [["game_id", 25], ["host", "t"]]
+D, [2016-03-31T19:42:06.455542 #16521] DEBUG -- :   [1m[35mTeam Load (0.2ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 25], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:06.455985 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.456024 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.3ms)
+D, [2016-03-31T19:42:06.456444 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.456802 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:06.457161 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", "36"]]
+D, [2016-03-31T19:42:06.457875 #16521] DEBUG -- :   [1m[35mTeam Load (0.2ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."host" = $2 LIMIT 1  [["game_id", 30], ["host", "t"]]
+D, [2016-03-31T19:42:06.458817 #16521] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 30], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:06.459264 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.459304 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.2ms)
+D, [2016-03-31T19:42:06.459729 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:06.460112 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.460695 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 90]]
+D, [2016-03-31T19:42:06.461458 #16521] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."host" = $2 LIMIT 1[0m  [["game_id", 23], ["host", "t"]]
+D, [2016-03-31T19:42:06.462701 #16521] DEBUG -- :   [1m[35mTeam Load (0.3ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 23], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:06.463391 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.2ms)
+I, [2016-03-31T19:42:06.463435 #16521]  INFO -- :   Rendered common/_game_row.html.erb (4.1ms)
+I, [2016-03-31T19:42:06.463469 #16521]  INFO -- :   Rendered common/_games_list_with_heading.html.erb (41.6ms)
+D, [2016-03-31T19:42:06.464223 #16521] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 2]]
+D, [2016-03-31T19:42:06.464664 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 2]]
+D, [2016-03-31T19:42:06.465203 #16521] DEBUG -- :   [1m[36mPlayground Load (0.2ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 20]]
+D, [2016-03-31T19:42:06.466091 #16521] DEBUG -- :   [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2  [["game_id", 6], ["approved", "t"]]
+I, [2016-03-31T19:42:06.466577 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.466620 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.0ms)
+D, [2016-03-31T19:42:06.467123 #16521] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 3]]
+D, [2016-03-31T19:42:06.467509 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 4]]
+D, [2016-03-31T19:42:06.467979 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 2]]
+D, [2016-03-31T19:42:06.468722 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2  [["game_id", 9], ["approved", "t"]]
+I, [2016-03-31T19:42:06.469161 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.469204 #16521]  INFO -- :   Rendered common/_game_row.html.erb (2.5ms)
+D, [2016-03-31T19:42:06.469567 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 13]]
+D, [2016-03-31T19:42:06.469919 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:06.470346 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 33]]
+D, [2016-03-31T19:42:06.471064 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "player_games" ON "players"."id" = "player_games"."player_id" WHERE "player_games"."game_id" = $1 AND "player_games"."approved" = $2  [["game_id", 14], ["approved", "t"]]
+I, [2016-03-31T19:42:06.471500 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.471540 #16521]  INFO -- :   Rendered common/_game_row.html.erb (2.3ms)
+D, [2016-03-31T19:42:06.471935 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:06.472272 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:06.472779 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 71]]
+D, [2016-03-31T19:42:06.473845 #16521] DEBUG -- :   [1m[35mTeam Load (0.3ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."host" = $2 LIMIT 1  [["game_id", 22], ["host", "t"]]
+D, [2016-03-31T19:42:06.474973 #16521] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 22], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:06.475459 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:06.475498 #16521]  INFO -- :   Rendered common/_game_row.html.erb (3.9ms)
+I, [2016-03-31T19:42:06.475531 #16521]  INFO -- :   Rendered common/_games_list_with_heading.html.erb (12.0ms)
+I, [2016-03-31T19:42:06.475571 #16521]  INFO -- :   Rendered games/index.html.erb within layouts/application (142.0ms)
+I, [2016-03-31T19:42:06.480272 #16521]  INFO -- : Completed 200 OK in 172ms (Views: 138.3ms | ActiveRecord: 13.9ms)
+I, [2016-03-31T19:42:08.406902 #16521]  INFO -- : Started GET "/profile/games" for 127.0.0.1 at 2016-03-31 19:42:08 +0300
+I, [2016-03-31T19:42:08.408908 #16521]  INFO -- : Processing by GamesController#user_games as HTML
+D, [2016-03-31T19:42:08.410564 #16521] DEBUG -- :   [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.413494 #16521] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.417450 #16521] DEBUG -- :   [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" INNER JOIN "player_games" ON "games"."id" = "player_games"."game_id" WHERE "games"."individual" = $1 AND "player_games"."player_id" = $2 AND "player_games"."approved" = $3  [["individual", "t"], ["player_id", 1], ["approved", "t"]]
+D, [2016-03-31T19:42:08.418132 #16521] DEBUG -- :   [1m[36mGame Load (0.1ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND "games"."player_id" = $2[0m  [["individual", "t"], ["player_id", 1]]
+I, [2016-03-31T19:42:08.422062 #16521]  INFO -- :   Rendered buttons/_new_game.html.erb (0.3ms)
+D, [2016-03-31T19:42:08.422689 #16521] DEBUG -- :   [1m[35mTeamGame Load (0.1ms)[0m  SELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND "games"."player_id" = $2  [["individual", "f"], ["player_id", 1]]
+D, [2016-03-31T19:42:08.423304 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.423829 #16521] DEBUG -- :   [1m[35mType Load (0.1ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.424348 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 91]]
+D, [2016-03-31T19:42:08.425473 #16521] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.426511 #16521] DEBUG -- :   [1m[36mTeam Load (0.1ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 21], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.427406 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.4ms)
+I, [2016-03-31T19:42:08.428144 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.4ms)
+I, [2016-03-31T19:42:08.428956 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.4ms)
+D, [2016-03-31T19:42:08.429570 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.430055 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.430565 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 71]]
+D, [2016-03-31T19:42:08.431117 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.431780 #16521] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 22], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.432127 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.432274 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.432518 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:42:08.432838 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.433202 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.433656 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 90]]
+D, [2016-03-31T19:42:08.434090 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.434660 #16521] DEBUG -- :   [1m[36mTeam Load (0.1ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 23], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.434931 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.435071 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.435283 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:42:08.435580 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.435939 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.436352 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 36]]
+D, [2016-03-31T19:42:08.436799 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.437369 #16521] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 24], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.437633 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.437775 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.437976 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:42:08.438295 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.438638 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.439044 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 19]]
+D, [2016-03-31T19:42:08.439513 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.440076 #16521] DEBUG -- :   [1m[36mTeam Load (0.1ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 25], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.440336 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.440474 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.440667 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:42:08.440987 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.441335 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.441734 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 3]]
+D, [2016-03-31T19:42:08.442196 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.442761 #16521] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 26], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.443010 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.443167 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.443363 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:42:08.443701 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.444059 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.444555 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 99]]
+D, [2016-03-31T19:42:08.445085 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.445783 #16521] DEBUG -- :   [1m[36mTeam Load (0.1ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 27], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.446191 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.2ms)
+I, [2016-03-31T19:42:08.446352 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.446579 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:42:08.446988 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.447345 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.447826 #16521] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 74]]
+D, [2016-03-31T19:42:08.448310 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.448921 #16521] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 28], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.449187 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.449344 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.449555 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:42:08.449860 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.450223 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.450664 #16521] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 24]]
+D, [2016-03-31T19:42:08.451122 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.451713 #16521] DEBUG -- :   [1m[36mTeam Load (0.1ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 29], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.451964 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.452109 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.452331 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:42:08.452636 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:08.452996 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.453322 #16521] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", "36"]]
+D, [2016-03-31T19:42:08.453728 #16521] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:42:08.454303 #16521] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 30], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:42:08.454552 #16521]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.454689 #16521]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:42:08.454913 #16521]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:42:08.455562 #16521] DEBUG -- :   [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" INNER JOIN "player_games" ON "games"."id" = "player_games"."game_id" WHERE "games"."individual" = $1 AND "player_games"."player_id" = $2 AND "player_games"."approved" = $3[0m  [["individual", "t"], ["player_id", 1], ["approved", "f"]]
+I, [2016-03-31T19:42:08.455691 #16521]  INFO -- :   Rendered games/user_games.html.erb within layouts/application (35.7ms)
+I, [2016-03-31T19:42:08.459580 #16521]  INFO -- : Completed 200 OK in 51ms (Views: 37.7ms | ActiveRecord: 3.2ms)
+I, [2016-03-31T19:42:11.358567 #16521]  INFO -- : Started GET "/individual-game/new" for 127.0.0.1 at 2016-03-31 19:42:11 +0300
+I, [2016-03-31T19:42:11.359664 #16521]  INFO -- : Processing by GamesController#new as HTML
+D, [2016-03-31T19:42:11.360692 #16521] DEBUG -- :   [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:11.364202 #16521] DEBUG -- :   [1m[36mType Load (0.2ms)[0m  [1mSELECT "types".* FROM "types"[0m
+D, [2016-03-31T19:42:11.366397 #16521] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:42:11.371045 #16521] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."player_id" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2[0m  [["friend_id", 1], ["approved", "t"]]
+D, [2016-03-31T19:42:11.371660 #16521] DEBUG -- :   [1m[35mFriend Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."friend_id" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2  [["player_id", 1], ["approved", "t"]]
+I, [2016-03-31T19:42:11.374984 #16521]  INFO -- :   Rendered games/new.html.erb within layouts/application (12.7ms)
+I, [2016-03-31T19:42:11.378991 #16521]  INFO -- : Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 1.4ms)
+D, [2016-03-31T19:43:37.993211 #16835] DEBUG -- : Browserify: /home/fatloris/work/sport_app/node_modules/.bin/browserify --list -o "/home/fatloris/work/sport_app/tmp/cache/browserify-rails/output20160331-16835-127c9o9" -
+D, [2016-03-31T19:43:38.324442 #16835] DEBUG -- : Browserify: /home/fatloris/work/sport_app/node_modules/.bin/browserify  -o "/home/fatloris/work/sport_app/tmp/cache/browserify-rails/output20160331-16835-c53its" -
+I, [2016-03-31T19:43:51.477085 #16894]  INFO -- : Started GET "/profile" for 127.0.0.1 at 2016-03-31 19:43:51 +0300
+I, [2016-03-31T19:43:51.515967 #16894]  INFO -- : Processing by ProfileController#index as HTML
+I, [2016-03-31T19:43:51.525651 #16894]  INFO -- : Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T19:43:51.539137 #16894]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 19:43:51 +0300
+I, [2016-03-31T19:43:51.541763 #16894]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T19:43:51.576961 #16894]  INFO -- :   Rendered devise/shared/_links.html.erb (10.1ms)
+I, [2016-03-31T19:43:51.577114 #16894]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (15.2ms)
+I, [2016-03-31T19:43:51.584549 #16894]  INFO -- : Completed 200 OK in 43ms (Views: 27.4ms | ActiveRecord: 2.4ms)
+I, [2016-03-31T19:43:53.069244 #16894]  INFO -- : Started POST "/users/sign_in" for 127.0.0.1 at 2016-03-31 19:43:53 +0300
+I, [2016-03-31T19:43:53.070496 #16894]  INFO -- : Processing by Devise::SessionsController#create as HTML
+I, [2016-03-31T19:43:53.070582 #16894]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"NEs5hG8d2D0zlbJeDfR2HS6jzkZX8h5zZPdgpfKsFaFjhJ4p6ZJTRJHn7RbxZ2bOYDMNz6Q6mewut55m0fPT1Q==", "user"=>{"email"=>"alexander@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+D, [2016-03-31T19:43:53.075392 #16894] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "alexander@mail.ru"]]
+D, [2016-03-31T19:43:53.137332 #16894] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2016-03-31T19:43:53.139053 #16894] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2016-03-31 16:42:48.084404"], ["current_sign_in_at", "2016-03-31 16:43:53.136779"], ["sign_in_count", 4], ["updated_at", "2016-03-31 16:43:53.137558"], ["id", 1]]
+D, [2016-03-31T19:43:53.141098 #16894] DEBUG -- :   [1m[35m (1.8ms)[0m  COMMIT
+I, [2016-03-31T19:43:53.144502 #16894]  INFO -- : Redirected to http://127.0.0.1:3000/profile
+I, [2016-03-31T19:43:53.144665 #16894]  INFO -- : Completed 302 Found in 74ms (ActiveRecord: 2.5ms)
+I, [2016-03-31T19:43:53.148170 #16894]  INFO -- : Started GET "/profile" for 127.0.0.1 at 2016-03-31 19:43:53 +0300
+I, [2016-03-31T19:43:53.149110 #16894]  INFO -- : Processing by ProfileController#index as HTML
+D, [2016-03-31T19:43:53.150171 #16894] DEBUG -- :   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:53.157035 #16894] DEBUG -- :   [1m[35mPlayer Load (0.2ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:53.175757 #16894] DEBUG -- :   [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND "games"."player_id" = $2[0m  [["individual", "t"], ["player_id", 1]]
+I, [2016-03-31T19:43:53.177123 #16894]  INFO -- :   Rendered buttons/_create_team.html.erb (0.4ms)
+I, [2016-03-31T19:43:53.177950 #16894]  INFO -- :   Rendered buttons/_search_team.html.erb (0.5ms)
+D, [2016-03-31T19:43:53.183080 #16894] DEBUG -- :   [1m[35mTeam Exists (0.3ms)[0m  SELECT  1 AS one FROM "teams" WHERE "teams"."host_id" = $1 LIMIT 1  [["host_id", 1]]
+D, [2016-03-31T19:43:53.184213 #16894] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."host_id" = $1[0m  [["host_id", 1]]
+D, [2016-03-31T19:43:53.193794 #16894] DEBUG -- :   [1m[35mType Load (0.3ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:53.206515 #16894] DEBUG -- :   [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_teams" ON "players"."id" = "player_teams"."player_id" WHERE "player_teams"."team_id" = $1 AND ("players"."id" != $2) AND "player_teams"."approved" = $3[0m  [["team_id", 1], ["id", 1], ["approved", "t"]]
+I, [2016-03-31T19:43:53.207870 #16894]  INFO -- :   Rendered teams/_user_teams.html.erb (27.8ms)
+D, [2016-03-31T19:43:53.211078 #16894] DEBUG -- :   [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" INNER JOIN "player_teams" ON "teams"."id" = "player_teams"."team_id" WHERE "player_teams"."player_id" = $1 AND "player_teams"."approved" = $2  [["player_id", 1], ["approved", "t"]]
+I, [2016-03-31T19:43:53.212746 #16894]  INFO -- :   Rendered teams/_participated_teams.html.erb (1.1ms)
+D, [2016-03-31T19:43:53.220372 #16894] DEBUG -- :   [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."player_id" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2[0m  [["friend_id", 1], ["approved", "t"]]
+D, [2016-03-31T19:43:53.221420 #16894] DEBUG -- :   [1m[35mFriend Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."friend_id" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2  [["player_id", 1], ["approved", "t"]]
+I, [2016-03-31T19:43:53.228891 #16894]  INFO -- :   Rendered buttons/_show_player.html.erb (0.6ms)
+I, [2016-03-31T19:43:53.229035 #16894]  INFO -- :   Rendered profile/friends/_index.html.erb (2.4ms)
+D, [2016-03-31T19:43:53.235016 #16894] DEBUG -- :   [1m[36mFriendship Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "friendships" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2 LIMIT 1[0m  [["friend_id", 1], ["approved", "f"]]
+D, [2016-03-31T19:43:53.235830 #16894] DEBUG -- :   [1m[35mFriendship Load (0.1ms)[0m  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2  [["friend_id", 1], ["approved", "f"]]
+D, [2016-03-31T19:43:53.240509 #16894] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 4]]
+D, [2016-03-31T19:43:53.242431 #16894] DEBUG -- :   [1m[35mFriendship Exists (0.4ms)[0m  SELECT  1 AS one FROM "friendships" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2 LIMIT 1  [["player_id", 1], ["approved", "f"]]
+D, [2016-03-31T19:43:53.242850 #16894] DEBUG -- :   [1m[36mFriendship Load (0.1ms)[0m  [1mSELECT "friendships".* FROM "friendships" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2[0m  [["player_id", 1], ["approved", "f"]]
+D, [2016-03-31T19:43:53.243858 #16894] DEBUG -- :   [1m[35mFriend Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 3]]
+I, [2016-03-31T19:43:53.245530 #16894]  INFO -- :   Rendered profile/_invitations.html.erb (14.0ms)
+I, [2016-03-31T19:43:53.245751 #16894]  INFO -- :   Rendered profile/index.html.erb within layouts/application (78.2ms)
+I, [2016-03-31T19:43:53.252779 #16894]  INFO -- : Completed 200 OK in 104ms (Views: 82.1ms | ActiveRecord: 7.3ms)
+I, [2016-03-31T19:43:53.337869 #16894]  INFO -- : Started GET "/system/friends/avatars/000/000/002/small/open-uri20160331-7943-uz1hpb?1459432845" for 127.0.0.1 at 2016-03-31 19:43:53 +0300
+F, [2016-03-31T19:43:53.339524 #16894] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/system/friends/avatars/000/000/002/small/open-uri20160331-7943-uz1hpb"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+I, [2016-03-31T19:43:53.374472 #16894]  INFO -- : Started GET "/system/friends/avatars/000/000/003/small/open-uri20160331-7943-o9eqhm?1459432846" for 127.0.0.1 at 2016-03-31 19:43:53 +0300
+F, [2016-03-31T19:43:53.375643 #16894] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/system/friends/avatars/000/000/003/small/open-uri20160331-7943-o9eqhm"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+I, [2016-03-31T19:43:55.382774 #16894]  INFO -- : Started GET "/profile/games" for 127.0.0.1 at 2016-03-31 19:43:55 +0300
+I, [2016-03-31T19:43:55.385813 #16894]  INFO -- : Processing by GamesController#user_games as HTML
+D, [2016-03-31T19:43:55.387318 #16894] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.388321 #16894] DEBUG -- :   [1m[35mPlayer Load (0.1ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.396568 #16894] DEBUG -- :   [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" INNER JOIN "player_games" ON "games"."id" = "player_games"."game_id" WHERE "games"."individual" = $1 AND "player_games"."player_id" = $2 AND "player_games"."approved" = $3[0m  [["individual", "t"], ["player_id", 1], ["approved", "t"]]
+D, [2016-03-31T19:43:55.397463 #16894] DEBUG -- :   [1m[35mGame Load (0.1ms)[0m  SELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND "games"."player_id" = $2  [["individual", "t"], ["player_id", 1]]
+I, [2016-03-31T19:43:55.413159 #16894]  INFO -- :   Rendered buttons/_new_game.html.erb (0.4ms)
+D, [2016-03-31T19:43:55.414082 #16894] DEBUG -- :   [1m[36mTeamGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND "games"."player_id" = $2[0m  [["individual", "f"], ["player_id", 1]]
+D, [2016-03-31T19:43:55.418975 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.419689 #16894] DEBUG -- :   [1m[36mType Load (0.2ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.421954 #16894] DEBUG -- :   [1m[35mPlayground Load (0.3ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 91]]
+D, [2016-03-31T19:43:55.429406 #16894] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.433689 #16894] DEBUG -- :   [1m[35mTeam Load (0.3ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 21], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.434739 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.5ms)
+I, [2016-03-31T19:43:55.435455 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.4ms)
+I, [2016-03-31T19:43:55.436182 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.4ms)
+D, [2016-03-31T19:43:55.436616 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.437026 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.437582 #16894] DEBUG -- :   [1m[36mPlayground Load (0.2ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 71]]
+D, [2016-03-31T19:43:55.438104 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.438885 #16894] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 22], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.439192 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.439340 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.439568 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:43:55.439894 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.440264 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.440820 #16894] DEBUG -- :   [1m[35mPlayground Load (0.2ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 90]]
+D, [2016-03-31T19:43:55.441306 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.442162 #16894] DEBUG -- :   [1m[35mTeam Load (0.3ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 23], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.442443 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.442595 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.442845 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:43:55.443185 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.443550 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.444189 #16894] DEBUG -- :   [1m[36mPlayground Load (0.2ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 36]]
+D, [2016-03-31T19:43:55.444746 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.445585 #16894] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 24], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.445953 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.446181 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.446449 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:43:55.446860 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.447270 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.447853 #16894] DEBUG -- :   [1m[35mPlayground Load (0.2ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 19]]
+D, [2016-03-31T19:43:55.448373 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.449192 #16894] DEBUG -- :   [1m[35mTeam Load (0.2ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 25], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.449521 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.449687 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.449908 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:43:55.450239 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.450600 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.451118 #16894] DEBUG -- :   [1m[36mPlayground Load (0.2ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 3]]
+D, [2016-03-31T19:43:55.451627 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.452461 #16894] DEBUG -- :   [1m[36mTeam Load (0.3ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 26], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.452764 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.452927 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.453149 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:43:55.453470 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.453828 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.454328 #16894] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 99]]
+D, [2016-03-31T19:43:55.454808 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.455515 #16894] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 27], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.455769 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.455913 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.456153 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:43:55.456454 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.456811 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.457291 #16894] DEBUG -- :   [1m[36mPlayground Load (0.1ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", 74]]
+D, [2016-03-31T19:43:55.457776 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.458439 #16894] DEBUG -- :   [1m[36mTeam Load (0.1ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 28], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.458689 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.458829 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.459059 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:43:55.459356 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.459737 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.460198 #16894] DEBUG -- :   [1m[35mPlayground Load (0.1ms)[0m  SELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1  [["id", 24]]
+D, [2016-03-31T19:43:55.460673 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.461336 #16894] DEBUG -- :   [1m[35mTeam Load (0.1ms)[0m  SELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1  [["game_id", 29], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.461650 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.461806 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.462056 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.2ms)
+D, [2016-03-31T19:43:55.462394 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:55.462806 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.463154 #16894] DEBUG -- :   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "playgrounds".* FROM "playgrounds" WHERE "playgrounds"."id" = $1 LIMIT 1[0m  [["id", "36"]]
+D, [2016-03-31T19:43:55.463588 #16894] DEBUG -- :   [1m[35mCACHE (0.0ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T19:43:55.464254 #16894] DEBUG -- :   [1m[36mTeam Load (0.1ms)[0m  [1mSELECT  "teams".* FROM "teams" INNER JOIN "game_teams" ON "teams"."id" = "game_teams"."team_id" WHERE "game_teams"."game_id" = $1 AND "game_teams"."approved" = $2 AND "game_teams"."host" = $3 LIMIT 1[0m  [["game_id", 30], ["approved", "t"], ["host", "f"]]
+I, [2016-03-31T19:43:55.464553 #16894]  INFO -- :   Rendered buttons/_show_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.464705 #16894]  INFO -- :   Rendered buttons/_edit_game.html.erb (0.1ms)
+I, [2016-03-31T19:43:55.464923 #16894]  INFO -- :   Rendered buttons/_delete_game.html.erb (0.1ms)
+D, [2016-03-31T19:43:55.465619 #16894] DEBUG -- :   [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" INNER JOIN "player_games" ON "games"."id" = "player_games"."game_id" WHERE "games"."individual" = $1 AND "player_games"."player_id" = $2 AND "player_games"."approved" = $3  [["individual", "t"], ["player_id", 1], ["approved", "f"]]
+I, [2016-03-31T19:43:55.465755 #16894]  INFO -- :   Rendered games/user_games.html.erb within layouts/application (54.7ms)
+I, [2016-03-31T19:43:55.469516 #16894]  INFO -- : Completed 200 OK in 84ms (Views: 55.6ms | ActiveRecord: 7.4ms)
+I, [2016-03-31T19:43:56.835214 #16894]  INFO -- : Started GET "/search" for 127.0.0.1 at 2016-03-31 19:43:56 +0300
+I, [2016-03-31T19:43:56.837173 #16894]  INFO -- : Processing by GameSearchController#main as HTML
+D, [2016-03-31T19:43:56.838301 #16894] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:43:56.842906 #16894] DEBUG -- :   [1m[35mType Load (0.2ms)[0m  SELECT "types".* FROM "types"
+I, [2016-03-31T19:43:56.844226 #16894]  INFO -- :   Rendered game_search/partials/_type_radio_small.html.erb (1.9ms)
+I, [2016-03-31T19:43:56.845061 #16894]  INFO -- :   Rendered common/_date_picker.html.erb (0.4ms)
+I, [2016-03-31T19:43:56.845195 #16894]  INFO -- :   Rendered common/_date_picker.html.erb (0.0ms)
+I, [2016-03-31T19:43:56.845843 #16894]  INFO -- :   Rendered game_search/_game_search_results.html.erb (0.2ms)
+I, [2016-03-31T19:43:56.845900 #16894]  INFO -- :   Rendered game_search/main.html.erb within layouts/fluid (4.9ms)
+I, [2016-03-31T19:43:56.847851 #16894]  INFO -- : Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.4ms)
+I, [2016-03-31T19:44:01.263175 #16894]  INFO -- : Started GET "/individual-game/new" for 127.0.0.1 at 2016-03-31 19:44:01 +0300
+I, [2016-03-31T19:44:01.264287 #16894]  INFO -- : Processing by GamesController#new as HTML
+D, [2016-03-31T19:44:01.265444 #16894] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:44:01.271675 #16894] DEBUG -- :   [1m[35mType Load (0.2ms)[0m  SELECT "types".* FROM "types"
+D, [2016-03-31T19:44:01.273750 #16894] DEBUG -- :   [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T19:44:01.275208 #16894] DEBUG -- :   [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."player_id" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2  [["friend_id", 1], ["approved", "t"]]
+D, [2016-03-31T19:44:01.276023 #16894] DEBUG -- :   [1m[36mFriend Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."friend_id" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2[0m  [["player_id", 1], ["approved", "t"]]
+I, [2016-03-31T19:44:01.276705 #16894]  INFO -- :   Rendered games/new.html.erb within layouts/application (6.8ms)
+I, [2016-03-31T19:44:01.281654 #16894]  INFO -- : Completed 200 OK in 17ms (Views: 11.3ms | ActiveRecord: 1.1ms)
+I, [2016-03-31T19:44:02.099217 #16894]  INFO -- : Started GET "/get_playgrounds?tiles=1236,639,1239,644&bbox=55.4589,37.2656,56.0537,37.9687&zoom=11&callback=fetchPlaygrounds" for 127.0.0.1 at 2016-03-31 19:44:02 +0300
+I, [2016-03-31T19:44:02.101334 #16894]  INFO -- : Processing by PlaygroundController#fetch_playgrounds as */*
+I, [2016-03-31T19:44:02.101405 #16894]  INFO -- :   Parameters: {"tiles"=>"1236,639,1239,644", "bbox"=>"55.4589,37.2656,56.0537,37.9687", "zoom"=>"11", "callback"=>"fetchPlaygrounds"}
+D, [2016-03-31T19:44:02.102467 #16894] DEBUG -- :   [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+I, [2016-03-31T19:44:02.786109 #16894]  INFO -- :   Rendered text template (0.0ms)
+I, [2016-03-31T19:44:02.786287 #16894]  INFO -- : Completed 200 OK in 685ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+I, [2016-03-31T20:01:54.458980 #18238]  INFO -- : Started GET "/profile" for 127.0.0.1 at 2016-03-31 20:01:54 +0300
+I, [2016-03-31T20:01:54.483223 #18238]  INFO -- : Processing by ProfileController#index as HTML
+D, [2016-03-31T20:01:54.495724 #18238] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T20:01:54.512136 #18238] DEBUG -- :   [1m[35mPlayer Load (0.2ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T20:01:54.529619 #18238] DEBUG -- :   [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND "games"."player_id" = $2[0m  [["individual", "t"], ["player_id", 1]]
+I, [2016-03-31T20:01:54.530816 #18238]  INFO -- :   Rendered buttons/_create_team.html.erb (0.5ms)
+I, [2016-03-31T20:01:54.531490 #18238]  INFO -- :   Rendered buttons/_search_team.html.erb (0.3ms)
+D, [2016-03-31T20:01:54.536154 #18238] DEBUG -- :   [1m[35mTeam Exists (0.2ms)[0m  SELECT  1 AS one FROM "teams" WHERE "teams"."host_id" = $1 LIMIT 1  [["host_id", 1]]
+D, [2016-03-31T20:01:54.536935 #18238] DEBUG -- :   [1m[36mTeam Load (0.2ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."host_id" = $1[0m  [["host_id", 1]]
+D, [2016-03-31T20:01:54.544180 #18238] DEBUG -- :   [1m[35mType Load (0.2ms)[0m  SELECT  "types".* FROM "types" WHERE "types"."id" = $1 LIMIT 1  [["id", 1]]
+D, [2016-03-31T20:01:54.556215 #18238] DEBUG -- :   [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "player_teams" ON "players"."id" = "player_teams"."player_id" WHERE "player_teams"."team_id" = $1 AND ("players"."id" != $2) AND "player_teams"."approved" = $3[0m  [["team_id", 1], ["id", 1], ["approved", "t"]]
+I, [2016-03-31T20:01:54.557212 #18238]  INFO -- :   Rendered teams/_user_teams.html.erb (23.9ms)
+D, [2016-03-31T20:01:54.560726 #18238] DEBUG -- :   [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" INNER JOIN "player_teams" ON "teams"."id" = "player_teams"."team_id" WHERE "player_teams"."player_id" = $1 AND "player_teams"."approved" = $2  [["player_id", 1], ["approved", "t"]]
+I, [2016-03-31T20:01:54.562488 #18238]  INFO -- :   Rendered teams/_participated_teams.html.erb (0.9ms)
+D, [2016-03-31T20:01:54.569672 #18238] DEBUG -- :   [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."player_id" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2[0m  [["friend_id", 1], ["approved", "t"]]
+D, [2016-03-31T20:01:54.570685 #18238] DEBUG -- :   [1m[35mFriend Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "friendships" ON "players"."id" = "friendships"."friend_id" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2  [["player_id", 1], ["approved", "t"]]
+I, [2016-03-31T20:01:54.576234 #18238]  INFO -- :   Rendered buttons/_show_player.html.erb (0.3ms)
+I, [2016-03-31T20:01:54.576481 #18238]  INFO -- :   Rendered profile/friends/_index.html.erb (1.8ms)
+D, [2016-03-31T20:01:54.581553 #18238] DEBUG -- :   [1m[36mFriendship Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "friendships" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2 LIMIT 1[0m  [["friend_id", 1], ["approved", "f"]]
+D, [2016-03-31T20:01:54.582241 #18238] DEBUG -- :   [1m[35mFriendship Load (0.2ms)[0m  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = $1 AND "friendships"."approved" = $2  [["friend_id", 1], ["approved", "f"]]
+D, [2016-03-31T20:01:54.587611 #18238] DEBUG -- :   [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 4]]
+D, [2016-03-31T20:01:54.589576 #18238] DEBUG -- :   [1m[35mFriendship Exists (0.2ms)[0m  SELECT  1 AS one FROM "friendships" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2 LIMIT 1  [["player_id", 1], ["approved", "f"]]
+D, [2016-03-31T20:01:54.590334 #18238] DEBUG -- :   [1m[36mFriendship Load (0.2ms)[0m  [1mSELECT "friendships".* FROM "friendships" WHERE "friendships"."player_id" = $1 AND "friendships"."approved" = $2[0m  [["player_id", 1], ["approved", "f"]]
+D, [2016-03-31T20:01:54.591319 #18238] DEBUG -- :   [1m[35mFriend Load (0.2ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 3]]
+I, [2016-03-31T20:01:54.592041 #18238]  INFO -- :   Rendered profile/_invitations.html.erb (13.7ms)
+I, [2016-03-31T20:01:54.592389 #18238]  INFO -- :   Rendered profile/index.html.erb within layouts/application (70.9ms)
+I, [2016-03-31T20:01:54.603323 #18238]  INFO -- : Completed 200 OK in 120ms (Views: 80.2ms | ActiveRecord: 9.5ms)
+I, [2016-03-31T20:01:54.693068 #18238]  INFO -- : Started GET "/system/friends/avatars/000/000/002/small/open-uri20160331-7943-uz1hpb?1459432845" for 127.0.0.1 at 2016-03-31 20:01:54 +0300
+F, [2016-03-31T20:01:54.695109 #18238] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/system/friends/avatars/000/000/002/small/open-uri20160331-7943-uz1hpb"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+I, [2016-03-31T20:01:54.696176 #18238]  INFO -- : Started GET "/system/friends/avatars/000/000/003/small/open-uri20160331-7943-o9eqhm?1459432846" for 127.0.0.1 at 2016-03-31 20:01:54 +0300
+F, [2016-03-31T20:01:54.697859 #18238] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/system/friends/avatars/000/000/003/small/open-uri20160331-7943-o9eqhm"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+I, [2016-03-31T20:01:54.812321 #18238]  INFO -- : Started GET "/system/friends/avatars/000/000/002/small/open-uri20160331-7943-uz1hpb?1459432845" for 127.0.0.1 at 2016-03-31 20:01:54 +0300
+F, [2016-03-31T20:01:54.813470 #18238] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/system/friends/avatars/000/000/002/small/open-uri20160331-7943-uz1hpb"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+I, [2016-03-31T20:01:54.816218 #18238]  INFO -- : Started GET "/system/friends/avatars/000/000/003/small/open-uri20160331-7943-o9eqhm?1459432846" for 127.0.0.1 at 2016-03-31 20:01:54 +0300
+F, [2016-03-31T20:01:54.817602 #18238] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/system/friends/avatars/000/000/003/small/open-uri20160331-7943-o9eqhm"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+I, [2016-03-31T20:01:55.880486 #18238]  INFO -- : Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-03-31 20:01:55 +0300
+I, [2016-03-31T20:01:55.883182 #18238]  INFO -- : Processing by Devise::SessionsController#destroy as HTML
+I, [2016-03-31T20:01:55.883251 #18238]  INFO -- :   Parameters: {"authenticity_token"=>"UFW9cKftZknDMoBuY8ZVVu6jD+ZZrka+jJHH0UdS2241FFoF+XCOZ5xj6OhHPo1U75MvSGNr9r01wIdZ3kH8bw=="}
+D, [2016-03-31T20:01:55.884961 #18238] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-03-31T20:01:55.887341 #18238] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2016-03-31T20:01:55.888281 #18238] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+I, [2016-03-31T20:01:55.889142 #18238]  INFO -- : Redirected to http://127.0.0.1:3000/
+I, [2016-03-31T20:01:55.889239 #18238]  INFO -- : Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+I, [2016-03-31T20:01:55.893237 #18238]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-03-31 20:01:55 +0300
+I, [2016-03-31T20:01:55.895687 #18238]  INFO -- : Processing by GamesController#index as HTML
+I, [2016-03-31T20:01:55.898712 #18238]  INFO -- : Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T20:01:55.910098 #18238]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:01:55 +0300
+I, [2016-03-31T20:01:55.911161 #18238]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:01:55.937771 #18238]  INFO -- :   Rendered devise/shared/_links.html.erb (14.5ms)
+I, [2016-03-31T20:01:55.937867 #18238]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (20.6ms)
+I, [2016-03-31T20:01:55.944564 #18238]  INFO -- : Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+I, [2016-03-31T20:01:57.313624 #18238]  INFO -- : Started GET "/users/auth/twitter" for 127.0.0.1 at 2016-03-31 20:01:57 +0300
+I, [2016-03-31T20:01:58.994770 #18238]  INFO -- : Started GET "/users/auth/twitter/callback?oauth_token=-vTcLAAAAAAAuY2lAAABU8z6eVs&oauth_verifier=anv1H9kEKxIYS8wQcbHF8reu70vSDScE" for 127.0.0.1 at 2016-03-31 20:01:58 +0300
+I, [2016-03-31T20:02:06.331059 #18238]  INFO -- : Processing by CallbacksController#failure as HTML
+I, [2016-03-31T20:02:06.331150 #18238]  INFO -- :   Parameters: {"oauth_token"=>"-vTcLAAAAAAAuY2lAAABU8z6eVs", "oauth_verifier"=>"anv1H9kEKxIYS8wQcbHF8reu70vSDScE"}
+I, [2016-03-31T20:02:06.334714 #18238]  INFO -- : Redirected to http://127.0.0.1:3000/users/sign_in
+I, [2016-03-31T20:02:06.334855 #18238]  INFO -- : Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T20:02:06.339110 #18238]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:02:06 +0300
+I, [2016-03-31T20:02:06.340030 #18238]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:02:06.349276 #18238]  INFO -- :   Rendered devise/shared/_links.html.erb (6.2ms)
+I, [2016-03-31T20:02:06.349377 #18238]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (8.4ms)
+I, [2016-03-31T20:02:06.353270 #18238]  INFO -- : Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+I, [2016-03-31T20:02:20.555596 #18238]  INFO -- : Started GET "/users/auth/facebook" for 127.0.0.1 at 2016-03-31 20:02:20 +0300
+I, [2016-03-31T20:03:28.654943 #18386]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:03:28 +0300
+I, [2016-03-31T20:03:28.679701 #18386]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:03:28.716138 #18386]  INFO -- :   Rendered devise/shared/_links.html.erb (7.0ms)
+I, [2016-03-31T20:03:28.716257 #18386]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (11.9ms)
+I, [2016-03-31T20:03:28.729590 #18386]  INFO -- : Completed 200 OK in 50ms (Views: 30.0ms | ActiveRecord: 2.1ms)
+I, [2016-03-31T20:04:33.831587 #18472]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:04:33 +0300
+I, [2016-03-31T20:04:33.857541 #18472]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:04:33.893447 #18472]  INFO -- :   Rendered devise/shared/_links.html.erb (8.2ms)
+I, [2016-03-31T20:04:33.893535 #18472]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (13.9ms)
+I, [2016-03-31T20:04:33.903520 #18472]  INFO -- : Completed 200 OK in 46ms (Views: 28.1ms | ActiveRecord: 2.3ms)
+I, [2016-03-31T20:04:35.426554 #18472]  INFO -- : Started GET "/users/auth/twitter" for 127.0.0.1 at 2016-03-31 20:04:35 +0300
+I, [2016-03-31T20:04:37.043638 #18472]  INFO -- : Started GET "/users/auth/twitter/callback?oauth_token=WJZrRgAAAAAAuY2lAAABU8z84zU&oauth_verifier=p5pK7gA2smY9VPrwabt5n6nW9uTijbU5" for 127.0.0.1 at 2016-03-31 20:04:37 +0300
+I, [2016-03-31T20:04:39.311853 #18472]  INFO -- : Processing by CallbacksController#failure as HTML
+I, [2016-03-31T20:04:39.311909 #18472]  INFO -- :   Parameters: {"oauth_token"=>"WJZrRgAAAAAAuY2lAAABU8z84zU", "oauth_verifier"=>"p5pK7gA2smY9VPrwabt5n6nW9uTijbU5"}
+I, [2016-03-31T20:04:39.316198 #18472]  INFO -- : Redirected to http://127.0.0.1:3000/users/sign_in
+I, [2016-03-31T20:04:39.316339 #18472]  INFO -- : Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T20:04:39.320769 #18472]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:04:39 +0300
+I, [2016-03-31T20:04:39.321824 #18472]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:04:39.332883 #18472]  INFO -- :   Rendered devise/shared/_links.html.erb (7.5ms)
+I, [2016-03-31T20:04:39.332971 #18472]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+I, [2016-03-31T20:04:39.339649 #18472]  INFO -- : Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+I, [2016-03-31T20:09:05.245369 #18755]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:09:05 +0300
+I, [2016-03-31T20:09:05.271342 #18755]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:09:05.305550 #18755]  INFO -- :   Rendered devise/shared/_links.html.erb (5.9ms)
+I, [2016-03-31T20:09:05.305642 #18755]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (10.7ms)
+I, [2016-03-31T20:09:05.312341 #18755]  INFO -- : Completed 200 OK in 41ms (Views: 21.2ms | ActiveRecord: 1.8ms)
+I, [2016-03-31T20:09:23.303104 #18810]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:09:23 +0300
+I, [2016-03-31T20:09:23.328954 #18810]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:09:23.364663 #18810]  INFO -- :   Rendered devise/shared/_links.html.erb (7.3ms)
+I, [2016-03-31T20:09:23.364753 #18810]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (14.0ms)
+I, [2016-03-31T20:09:23.371968 #18810]  INFO -- : Completed 200 OK in 43ms (Views: 25.4ms | ActiveRecord: 2.0ms)
+I, [2016-03-31T20:09:24.922984 #18810]  INFO -- : Started GET "/users/auth/twitter" for 127.0.0.1 at 2016-03-31 20:09:24 +0300
+F, [2016-03-31T20:09:25.652218 #18810] FATAL -- : 
+OAuth::Unauthorized (401 Authorization Required):
+  oauth (0.5.1) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.5.1) lib/oauth/consumer.rb:136:in `get_request_token'
+  omniauth-oauth (1.1.0) lib/omniauth/strategies/oauth.rb:28:in `request_phase'
+  omniauth-twitter (1.2.1) lib/omniauth/strategies/twitter.rb:61:in `request_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:215:in `request_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:183:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/fatloris/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+I, [2016-03-31T20:09:59.889624 #18810]  INFO -- : Started GET "/users/auth/twitter" for 127.0.0.1 at 2016-03-31 20:09:59 +0300
+I, [2016-03-31T20:10:01.564560 #18810]  INFO -- : Started GET "/users/auth/twitter/callback?oauth_token=fElOuwAAAAAAuY2lAAABU80B1o8&oauth_verifier=VxmwNJG68j28gPTulcgAmTkYojgePfPx" for 127.0.0.1 at 2016-03-31 20:10:01 +0300
+I, [2016-03-31T20:10:03.766842 #18810]  INFO -- : Processing by CallbacksController#failure as HTML
+I, [2016-03-31T20:10:03.766892 #18810]  INFO -- :   Parameters: {"oauth_token"=>"fElOuwAAAAAAuY2lAAABU80B1o8", "oauth_verifier"=>"VxmwNJG68j28gPTulcgAmTkYojgePfPx"}
+I, [2016-03-31T20:10:03.773262 #18810]  INFO -- : Redirected to http://127.0.0.1:3000/users/sign_in
+I, [2016-03-31T20:10:03.773409 #18810]  INFO -- : Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T20:10:03.778942 #18810]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:10:03 +0300
+I, [2016-03-31T20:10:03.779985 #18810]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:10:03.789343 #18810]  INFO -- :   Rendered devise/shared/_links.html.erb (5.6ms)
+I, [2016-03-31T20:10:03.789434 #18810]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+I, [2016-03-31T20:10:03.797699 #18810]  INFO -- : Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+I, [2016-03-31T20:15:36.159867 #19401]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-03-31 20:15:36 +0300
+I, [2016-03-31T20:15:36.183186 #19401]  INFO -- : Processing by GamesController#index as HTML
+I, [2016-03-31T20:15:36.190010 #19401]  INFO -- : Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+I, [2016-03-31T20:15:36.198083 #19401]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:15:36 +0300
+I, [2016-03-31T20:15:36.200018 #19401]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:15:36.229678 #19401]  INFO -- :   Rendered devise/shared/_links.html.erb (7.1ms)
+I, [2016-03-31T20:15:36.229773 #19401]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (13.3ms)
+I, [2016-03-31T20:15:36.236282 #19401]  INFO -- : Completed 200 OK in 36ms (Views: 23.5ms | ActiveRecord: 1.9ms)
+I, [2016-03-31T20:15:41.952488 #19401]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-03-31 20:15:41 +0300
+I, [2016-03-31T20:15:41.953432 #19401]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-03-31T20:15:41.963592 #19401]  INFO -- :   Rendered devise/shared/_links.html.erb (6.2ms)
+I, [2016-03-31T20:15:41.963676 #19401]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (9.1ms)
+I, [2016-03-31T20:15:41.970763 #19401]  INFO -- : Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+I, [2016-03-31T20:15:43.310045 #19401]  INFO -- : Started GET "/users/auth/twitter" for 127.0.0.1 at 2016-03-31 20:15:43 +0300
+I, [2016-03-31T20:15:45.077881 #19401]  INFO -- : Started GET "/users/auth/twitter/callback?oauth_token=0c_oYwAAAAAAuY2lAAABU80HFCw&oauth_verifier=yvPwRBY2x7QqlQta5WTGZtGai0X0Zqfh" for 127.0.0.1 at 2016-03-31 20:15:45 +0300
+I, [2016-03-31T20:15:46.675805 #19401]  INFO -- : Processing by CallbacksController#twitter as HTML
+I, [2016-03-31T20:15:46.675892 #19401]  INFO -- :   Parameters: {"oauth_token"=>"0c_oYwAAAAAAuY2lAAABU80HFCw", "oauth_verifier"=>"yvPwRBY2x7QqlQta5WTGZtGai0X0Zqfh"}
+D, [2016-03-31T20:15:46.681046 #19401] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2  ORDER BY "users"."id" ASC LIMIT 1[0m  [["provider", "twitter"], ["uid", "4915425574"]]
+D, [2016-03-31T20:15:46.742580 #19401] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2016-03-31T20:15:46.743903 #19401] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+D, [2016-03-31T20:15:46.744802 #19401] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2016-03-31T20:15:46.746589 #19401] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("provider", "uid", "email", "encrypted_password", "last_sign_in_at", "current_sign_in_at", "last_sign_in_ip", "current_sign_in_ip", "sign_in_count", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["provider", "twitter"], ["uid", "4915425574"], ["email", nil], ["encrypted_password", "$2a$10$lcfQmL2bViB1gultZihdsugThPdlKipQTyD7na5GM.iw87e4hcV3q"], ["last_sign_in_at", "2016-03-31 17:15:46.744247"], ["current_sign_in_at", "2016-03-31 17:15:46.744247"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["created_at", "2016-03-31 17:15:46.744893"], ["updated_at", "2016-03-31 17:15:46.744893"]]
+D, [2016-03-31T20:15:46.746748 #19401] DEBUG -- :   [1m[35m (0.1ms)[0m  ROLLBACK
+I, [2016-03-31T20:15:46.746893 #19401]  INFO -- : Completed 500 Internal Server Error in 71ms (ActiveRecord: 1.1ms)
+F, [2016-03-31T20:15:46.748148 #19401] FATAL -- : 
+ActiveRecord::StatementInvalid (PG::NotNullViolation: ОШИБКА:  нулевое значение в столбце "email" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (18, null, $2a$10$lcfQmL2bViB1gultZihdsugThPdlKipQTyD7na5GM.iw87e4hcV3q, null, null, null, 1, 2016-03-31 17:15:46.744247, 2016-03-31 17:15:46.744247, 127.0.0.1, 127.0.0.1, 2016-03-31 17:15:46.744893, 2016-03-31 17:15:46.744893, null, twitter, 4915425574).
+: INSERT INTO "users" ("provider", "uid", "email", "encrypted_password", "last_sign_in_at", "current_sign_in_at", "last_sign_in_ip", "current_sign_in_ip", "sign_in_count", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"):
+  app/controllers/callbacks_controller.rb:19:in `twitter'
+
+
+I, [2016-04-26T20:11:28.423780 #24380]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-04-26 20:11:28 +0300
+I, [2016-04-26T20:11:28.460540 #24380]  INFO -- : Processing by GamesController#index as HTML
+I, [2016-04-26T20:11:28.467493 #24380]  INFO -- : Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+I, [2016-04-26T20:11:28.479384 #24380]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2016-04-26 20:11:28 +0300
+I, [2016-04-26T20:11:28.481979 #24380]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-04-26T20:11:28.512588 #24380]  INFO -- :   Rendered devise/shared/_links.html.haml (7.6ms)
+I, [2016-04-26T20:11:28.512687 #24380]  INFO -- :   Rendered devise/sessions/new.html.haml within layouts/inspinia (13.0ms)
+I, [2016-04-26T20:11:28.526564 #24380]  INFO -- :   Rendered inspinia/_navigation.html.haml (5.6ms)
+I, [2016-04-26T20:11:28.527712 #24380]  INFO -- :   Rendered inspinia/_footer.html.haml (0.7ms)
+I, [2016-04-26T20:11:28.528001 #24380]  INFO -- : Completed 200 OK in 46ms (Views: 30.6ms | ActiveRecord: 1.9ms)
+I, [2016-04-26T20:11:30.130561 #24380]  INFO -- : Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-26 20:11:30 +0300
+I, [2016-04-26T20:11:30.131764 #24380]  INFO -- : Processing by Devise::SessionsController#create as HTML
+I, [2016-04-26T20:11:30.131829 #24380]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Byf7l2aMMC6PiJu5FBrli2r8hu+3eX7NRYogLbNfkcL2IrXJL/6N95oHiP7n709ky4VTLcB8XIMeTpvfQvDlKw==", "user"=>{"email"=>"alexander@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+D, [2016-04-26T20:11:30.139154 #24380] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "alexander@mail.ru"]]
+D, [2016-04-26T20:11:30.200979 #24380] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2016-04-26T20:11:30.202986 #24380] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2016-04-21 13:55:38.475557"], ["current_sign_in_at", "2016-04-26 17:11:30.200485"], ["last_sign_in_ip", "192.168.10.103"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 8], ["updated_at", "2016-04-26 17:11:30.201188"], ["id", 1]]
+D, [2016-04-26T20:11:30.206763 #24380] DEBUG -- :   [1m[35m (2.1ms)[0m  COMMIT
+I, [2016-04-26T20:11:30.210123 #24380]  INFO -- : Redirected to http://127.0.0.1:3000/
+I, [2016-04-26T20:11:30.210210 #24380]  INFO -- : Completed 302 Found in 78ms (ActiveRecord: 3.1ms)
+I, [2016-04-26T20:11:30.215890 #24380]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-04-26 20:11:30 +0300
+I, [2016-04-26T20:11:30.216819 #24380]  INFO -- : Processing by GamesController#index as HTML
+D, [2016-04-26T20:11:30.217937 #24380] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+D, [2016-04-26T20:11:30.220426 #24380] DEBUG -- :   [1m[35mGame Load (0.3ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-26 00:00:00.000000')  ORDER BY "games"."game_date_time" ASC LIMIT 10  [["individual", "t"]]
+D, [2016-04-26T20:11:30.221323 #24380] DEBUG -- :   [1m[36mTeamGame Load (0.2ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-26 00:00:00.000000')  ORDER BY "games"."game_date_time" ASC LIMIT 10[0m  [["individual", "f"]]
+D, [2016-04-26T20:11:30.233915 #24380] DEBUG -- :   [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-19' and game_date_time < '2016-04-26')  [["individual", "t"]]
+D, [2016-04-26T20:11:30.234327 #24380] DEBUG -- :   [1m[36mTeamGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-19' and game_date_time < '2016-04-26')[0m  [["individual", "f"]]
+I, [2016-04-26T20:11:30.239510 #24380]  INFO -- :   Rendered common/_games_list_with_heading.html.haml (1.5ms)
+I, [2016-04-26T20:11:30.239635 #24380]  INFO -- :   Rendered common/_games_list_with_heading.html.haml (0.0ms)
+I, [2016-04-26T20:11:30.239755 #24380]  INFO -- :   Rendered common/_games_list_with_heading.html.haml (0.1ms)
+I, [2016-04-26T20:11:30.243499 #24380]  INFO -- :   Rendered common/_game_box.html.haml (3.5ms)
+I, [2016-04-26T20:11:30.243554 #24380]  INFO -- :   Rendered games/index.html.haml within layouts/inspinia (7.0ms)
+I, [2016-04-26T20:11:30.243655 #24380]  INFO -- : Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.4ms)
+F, [2016-04-26T20:11:30.244392 #24380] FATAL -- : 
+ActionView::Template::Error (undefined method `host' for nil:NilClass):
+     9:         .col-md-2.no-mp.island-nude{:style => "height: 436px;"}
+    10:           .row.no-mp
+    11:             .col-md-12.no-mp
+    12:               = image_tag game.host.avatar.url(:medium), class: 'img-circle avatar-large center-block'
+    13:               %hr/
+    14:           - game.players.each do |player|
+    15:             .row.no-mp
+  app/views/common/_game_box.html.haml:12:in `_app_views_common__game_box_html_haml___4143700572625284004_51144400'
+  app/views/games/index.html.haml:15:in `_app_views_games_index_html_haml__29758686030776824_69998438214560'
+
+
+I, [2016-04-26T20:11:34.491967 #24380]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-04-26 20:11:34 +0300
+I, [2016-04-26T20:11:34.492837 #24380]  INFO -- : Processing by GamesController#index as HTML
+D, [2016-04-26T20:11:34.493843 #24380] DEBUG -- :   [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+D, [2016-04-26T20:11:34.494688 #24380] DEBUG -- :   [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-26 00:00:00.000000')  ORDER BY "games"."game_date_time" ASC LIMIT 10[0m  [["individual", "t"]]
+D, [2016-04-26T20:11:34.495331 #24380] DEBUG -- :   [1m[35mTeamGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-26 00:00:00.000000')  ORDER BY "games"."game_date_time" ASC LIMIT 10  [["individual", "f"]]
+D, [2016-04-26T20:11:34.496124 #24380] DEBUG -- :   [1m[36mGame Load (0.1ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-19' and game_date_time < '2016-04-26')[0m  [["individual", "t"]]
+D, [2016-04-26T20:11:34.496479 #24380] DEBUG -- :   [1m[35mTeamGame Load (0.1ms)[0m  SELECT "games".* FROM "games" WHERE "games"."individual" = $1 AND (game_date_time > '2016-04-19' and game_date_time < '2016-04-26')  [["individual", "f"]]
+I, [2016-04-26T20:11:34.497109 #24380]  INFO -- :   Rendered common/_games_list_with_heading.html.haml (0.0ms)
+I, [2016-04-26T20:11:34.497218 #24380]  INFO -- :   Rendered common/_games_list_with_heading.html.haml (0.0ms)
+I, [2016-04-26T20:11:34.497316 #24380]  INFO -- :   Rendered common/_games_list_with_heading.html.haml (0.0ms)
+I, [2016-04-26T20:11:34.498543 #24380]  INFO -- :   Rendered common/_game_box.html.haml (1.2ms)
+I, [2016-04-26T20:11:34.498599 #24380]  INFO -- :   Rendered games/index.html.haml within layouts/inspinia (1.6ms)
+I, [2016-04-26T20:11:34.498719 #24380]  INFO -- : Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.7ms)
+F, [2016-04-26T20:11:34.499467 #24380] FATAL -- : 
+ActionView::Template::Error (undefined method `host' for nil:NilClass):
+     9:         .col-md-2.no-mp.island-nude{:style => "height: 436px;"}
+    10:           .row.no-mp
+    11:             .col-md-12.no-mp
+    12:               = image_tag game.host.avatar.url(:medium), class: 'img-circle avatar-large center-block'
+    13:               %hr/
+    14:           - game.players.each do |player|
+    15:             .row.no-mp
+  app/views/common/_game_box.html.haml:12:in `_app_views_common__game_box_html_haml___4143700572625284004_51144400'
+  app/views/games/index.html.haml:15:in `_app_views_games_index_html_haml__29758686030776824_69998438214560'
+
+

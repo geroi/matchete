@@ -1,0 +1,12 @@
+.col-md-4.col-md-offset-4
+  = form_for resource, as: resource_name, url: session_path(resource_name), html:{class:'form-signin'} do |f|
+    %h2.form-signin-heading Войти
+    = label_tag :email, 'Электронная почта'
+    = f.email_field :email, autofocus: true, class:"form-control"
+    = label_tag :password, 'Пароль'
+    = f.password_field :password, autocomplete: "off", class:"form-control"
+    - if devise_mapping.rememberable?
+      = label_tag :remember_me, 'Запомнить меня'
+      = f.check_box :remember_me, class:"checkbox"
+    = f.submit "Войти", class:"btn btn-primary"
+  = render "devise/shared/links"

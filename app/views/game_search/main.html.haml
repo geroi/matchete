@@ -1,0 +1,52 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU"
+  = javascript_include_tag 'search/search', debug: false
+  = javascript_include_tag 'search/date_picker', debug: false
+  = javascript_include_tag 'search/date_range_picker', debug: false
+#map.map-fixed
+.row
+  .col-md-5.col-lg-5.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    .ibox
+      .ibox-content
+        / <h1>Поиск игры</h1>
+        = form_tag("/search", remote: true, id: 'search-form') do
+          .row
+            .col-md-12.hidden
+              = label_tag(:game_name, "Название игры:")
+              = text_field_tag :game_name, nil, class:'form-control'
+          .row
+            .col-md-12
+              - types_ary = []
+              - @types.each {|type| types_ary.push([type.name.to_s.capitalize, type.id]) }
+              = label_tag :type,'Вид спорта'
+              = select_tag 'game[type_id]', options_for_select(types_ary), class:'form-control'
+          .row
+            .col-md-12
+              = label_tag :team_game, "Командная игра"
+              = check_box "game", "team_game",{class: 'i-checks'}, "true", "false"
+          .row
+            .col-lg-12
+              #datapicker.input-daterange.input-group
+                %input.input-sm.form-control{:name => "game[start_time]", :type => "text", value: '01.04.2016'}/
+                %span.input-group-addon по
+                %input.input-sm.form-control{:name => "game[end_time]", :type => "text", value: '01.06.2016'}/
+          .row
+            .col-lg-12
+              .ibox
+                = submit_tag "Поиск", class:'btn btn-block btn-primary pull-right', id:'submit'
+    / island
+  / col
+/ .row
+/   .col-md-5.col-lg-5.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+/     .ibox.float-e-margins
+/       .ibox-title
+/         %h5 Результаты поиска
+/         .ibox-tools
+/           %a.collapse-link
+/             %i.fa.fa-chevron-up
+/           %a.close-link
+/             %i.fa.fa-times
+/       .ibox-content
+.row
+  #results.col-md-5.col-lg-5.col-md-offset-1.col-lg-offset-1.col-sm-8.col-xs-10
+    = render partial:"/common/games_list_with_heading", locals: {games: {}, heading: 'Результаты поиска', actions: {}}

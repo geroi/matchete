@@ -1,0 +1,39 @@
+/ game, actions
+- if game.individual 
+  .hidden{'data-game': game.to_json(include: {playground:{}, players: {methods: :avatar}, host: {methods: :avatar}})}
+- else
+  .hidden{'data-game': game.to_json(include: {playground:{}, host_team: {methods: :logo}, visitor_team: {methods: :logo}, host: {methods: :avatar}})}
+.row
+  .col-md-1.col-lg-1.col-sm-1.col-xs-1
+    = game.game_date_time.strftime('%d.%m.%y')
+  .col-md-1.col-lg-1.col-sm-1.col-xs-1
+    = game.type.name
+  .col-md-1.col-lg-1.col-sm-1.col-xs-1
+    %a{href: "/#{game.host.id}"}
+      %img.img-circle{src: game.host.avatar(:small)}
+      %span=game.host.name
+  .col-md-2.col-lg-2.col-sm-2.col-xs-2
+    %a{:href => "/playgrounds/#{game.playground.id}"}
+      = game.playground.name
+    .hidden{'data-lat':game.playground.latitude,'data-lng':game.playground.longitude}
+  - if game.individual
+    .col-md-4.col-lg-4.col-sm-4.col-xs-4
+      - game.players.each do |player|
+        = image_tag player.avatar.url(:small), class: 'img-circle'
+  - else
+    .col-md-2.col-lg-2.col-sm-2.col-xs-2
+      = image_tag game.host_team.logo.url(:small), class: 'img-circle'
+      %span= game.host_team.name
+    .col-md-2.col-lg-2.col-sm-2.col-xs-2
+      = image_tag game.visitor_team.logo.url(:small), class: 'img-circle'
+      %span= game.visitor_team.name
+  .col-md-3.col-lg-3.col-sm-3.col-xs-3
+    .row
+      .col-md-12.col-lg-12.col-sm-12.col-xs-12
+        = render(partial:"/buttons/show_game_on_map_full", locals: {game: game}) if actions[:show_on_map]
+        = render(partial:"/buttons/show_game_full", locals: {game: game}) if actions[:show]
+        = render(partial:"/buttons/edit_game_full", locals: {game: game}) if actions[:edit]
+        = render(partial:"/buttons/delete_game_full", locals: {game: game}) if actions[:delete]
+/ .row
+/   .col-md-12.col-lg-12.col-sm-12.col-xs-12
+/     %hr

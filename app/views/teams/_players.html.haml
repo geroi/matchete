@@ -1,0 +1,11 @@
+- data_ary = []
+- @team.players.each do |player|
+  - data_ary.push [player.name,
+  - button_to('Просмотр профиля', '#', class: 'btn btn-primary'),
+  - button_to('Удалить игрока', delete_teammate_team_path(@team, player), class: 'btn btn-primary')
+  - ]
+- data_ary.push [@team.host.name,
+- button_to('Основатель', user_root_path, class: 'btn btn-success'),
+- ]
+%h1 Игроки в команде
+= table_tag data_array: data_ary, headings: ['Имя','Действия','']

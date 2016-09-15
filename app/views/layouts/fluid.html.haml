@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title MATCHete
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true, debug: false
+    = yield :javascript_includes
+    = csrf_meta_tags
+  %body
+    = render partial:"/common/navigation_bar"
+    .container-fluid
+      .row
+        .col-md-8.col-md-offset-2
+          - if notice
+            .panel.panel-warning
+              .panel-heading Внимание
+              .panel-body
+                = notice
+          - if alert
+            .panel.panel-danger
+              .panel-heading Ошибка
+              .panel-body
+                = alert
+        .row
+          = yield

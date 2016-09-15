@@ -1,0 +1,9 @@
+.row
+  .col-md-12
+    %h1 Приглашенные игроки
+.row
+  .col-md-12
+    - game.invited_potential_participants.each do |participant|
+      .row
+        .col-md-4= participant.name
+        .col-md-4= button_to 'Отозвать заявку', deny_participant_game_path(id: game.id, player_id: participant.id), class: 'btn btn-default'

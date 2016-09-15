@@ -1,0 +1,5 @@
+- types.each do |type|
+  %label.radio-inline
+    %input{:name => "team[type_id]", :type => "radio", selected: "#{current_type == type.id}", value: "#{type.id}"}
+    = type.name
+    %img{:src => "#{type.logo.url(:thumb)}"}

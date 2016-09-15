@@ -1,0 +1,1 @@
+$(document).ready(function(){$(document).on("ajax:success","form[data-remote]",function(t,e,a,d){$(this).find("[data-type=delete]").attr("value","\u0423\u0434\u0430\u043b\u0435\u043d\u043e").attr("disabled","disabled")})});

@@ -1,0 +1,14 @@
+.row
+  .col-md-12
+    %h3 Приглашения для игроков
+.row
+  .col-md-12
+    - team.invited.each do |player|
+      .row
+        .col-md-10
+          %p
+            = player.name
+        .col-md-1
+          = render partial: '/buttons/show_player', locals: {player: player}
+        .col-md-1
+          = render partial: '/buttons/reject_teammate', locals: {team: team, player: player}

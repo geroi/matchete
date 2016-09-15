@@ -1,0 +1,174 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idi':geometry{;I"
+Point;T:coordinates[f55.994942642992f37.2034783993378:properties{	:balloonContentHeaderI"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='34'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/34'>
+            <p>
+                <strong>ГБОУ Школа №1353</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"=<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Берёзовая аллея, дом 9А</h5>
+    <h5>"Зеленоградский административный округ"</h5>
+    <h5>"район Матушкино"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/34' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T{	;I"Feature;T;
+i/;{;I"
+Point;T;[f55.9974946146573f37.2307700686938;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='42'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/42'>
+            <p>
+                <strong>ГБОУ Лицей №1557</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"A<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>город Зеленоград, корпус 509</h5>
+    <h5>"Зеленоградский административный округ"</h5>
+    <h5>"район Савёлки"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/42' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i1;{;I"
+Point;T;[f55.9879154178953f37.1771665689208;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='44'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/44'>
+            <p>
+                <strong>ГБОУ Школа №1692</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"@<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>город Зеленоград, корпус 1017</h5>
+    <h5>"Зеленоградский административный округ"</h5>
+    <h5>"район Силино"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/44' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i2;{;I"
+Point;T;[f55.9931201478137f37.1931377825011;{	;I"N<div class='row'>
+    <div class='col-md-4'>
+        <a href='45'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/45'>
+            <p>
+                <strong>ГБОУ СОШ №718</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"@<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>город Зеленоград, корпус 1214</h5>
+    <h5>"Зеленоградский административный округ"</h5>
+    <h5>"район Силино"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/45' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+iA;{;I"
+Point;T;[f55.9802363240942f37.1527628936691;{	;I"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='60'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/60'>
+            <p>
+                <strong>ГБОУ Школа №1194</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"B<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>город Зеленоград, корпус 1556</h5>
+    <h5>"Зеленоградский административный округ"</h5>
+    <h5>"район Крюково"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/60' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+iN;{;I"
+Point;T;[f55.9934340883737f37.1907243953162;{	;I"Y<div class='row'>
+    <div class='col-md-4'>
+        <a href='73'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/73'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"*<div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>город Зеленоград, корпус 1202</h5>
+    <h5>"Зеленоградский административный округ"</h5>
+    <h5>"район Силино"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/73' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T:@created_atf1463588339.8408585:@expires_in0

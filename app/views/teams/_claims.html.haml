@@ -1,0 +1,16 @@
+.row
+  .col-md-12
+    %h3 Заявки от игроков
+.row
+  .col-md-12
+    - team.claimers.each do |player|
+      .row
+        .col-md-9
+          %p
+            = player.name
+        .col-md-1
+          = render partial: '/buttons/show_player', locals: {player: player}
+        .col-md-1
+          = render partial: '/buttons/reject_teammate', locals: {team: team, player: player}
+        .col-md-1
+          = render partial: '/buttons/approve_teammate', locals: {team: team, player: player}

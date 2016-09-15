@@ -1,0 +1,1 @@
+$(document).ready(function(){function e(){o=new ymaps.Map("map",{center:[55.76,37.64],zoom:11},{searchControlProvider:"yandex#search"})}var o;ymaps.ready(e),$(document).on("ajax:success","#search-form",function(e,o,r,t){$("#results_table > tbody > tr:not(:first-child)").remove(),$("#results_table > tbody").append(t.responseText)})});

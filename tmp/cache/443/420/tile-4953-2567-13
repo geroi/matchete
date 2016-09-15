@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idiS:geometry{;I"
+Point;T:coordinates[f55.7286989382608f37.671836034406:properties{	:balloonContentHeaderI"R<div class='row'>
+    <div class='col-md-4'>
+        <a href='78'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/78'>
+            <p>
+                <strong>ГБОУ Школа №498</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"<<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>2-я Дубровская улица, дом 3</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"Таганский район"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/78' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T:@created_atf1463588372.2382529:@expires_in0

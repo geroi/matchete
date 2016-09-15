@@ -1,0 +1,116 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[	{	;I"Feature;T:idi&:geometry{;I"
+Point;T:coordinates[f55.7234133526655f37.4666668879092:properties{	:balloonContentHeaderI"S<div class='row'>
+    <div class='col-md-4'>
+        <a href='33'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/33'>
+            <p>
+                <strong>ГБОУ Школа №1248</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"O<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Славянский бульвар, дом 11, корпус 3</h5>
+    <h5>"Западный административный округ"</h5>
+    <h5>"район Фили-Давыдково"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/33' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T{	;I"Feature;T;
+i.;{;I"
+Point;T;[f55.7098503271454f37.502430638083;{	;I"Y<div class='row'>
+    <div class='col-md-4'>
+        <a href='41'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/41'>
+            <p>
+                <strong>Дворовая площадка</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I" <div class='row'>
+<div class='col-md-12'>
+    <h5>спортивная площадка</h5>
+    <h5>Мосфильмовская улица, дом 78</h5>
+    <h5>"Западный административный округ"</h5>
+    <h5>"район Раменки"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/41' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"*спортивная площадка;T{	;I"Feature;T;
+iP;{;I"
+Point;T;[f55.7216024935582f37.510361171823;{	;I"O<div class='row'>
+    <div class='col-md-4'>
+        <a href='75'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/75'>
+            <p>
+                <strong>ГБОУ СОШ №1118</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"*<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Довженко, дом 10</h5>
+    <h5>"Западный административный округ"</h5>
+    <h5>"район Раменки"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/75' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T{	;I"Feature;T;
+i];{;I"
+Point;T;[f55.6852423451996f37.4956648830724;{	;I"a<div class='row'>
+    <div class='col-md-4'>
+        <a href='88'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/88'>
+            <p>
+                <strong>ГБОУ ЦО №1953 «Москва-98»</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"E<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>улица Удальцова, дом 40</h5>
+    <h5>"Западный административный округ"</h5>
+    <h5>"район Проспект Вернадского"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/88' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T:@created_atf1463588336.9431002:@expires_in0

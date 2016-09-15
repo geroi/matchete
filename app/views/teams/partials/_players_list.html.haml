@@ -1,0 +1,22 @@
+/ LOCALS: players=[], team
+.col-md-12
+  .row
+    .col-md-4.col-md-offset-2
+      %h3
+        %strong
+          %em Состав:
+  - players.each do |player|
+    .row
+      .col-md-1
+        %p.img-circle{:style => "box-shadow: 5px 5px 5px rgba(0,0,0,0.1); \n                                     height: 50px;\n                                     line-height:50px;\n                                     width: 50px;\n                                     text-align:center;"}
+          = player.number_in_team(team)
+      .col-md-1
+        = image_tag player.avatar.url(:small), class: 'img-circle'
+      .col-md-6
+        %h4
+          = player.name
+      .col-md-2
+        %button.btn.btn-default{:disabled => "true"}
+          = player.position_in_team(team)
+      .col-md-2
+        = render partial: '/buttons/show_player', locals: {player: player}

@@ -1,0 +1,30 @@
+/ game
+.col-md-12.hidden{"data-game-id" => "<haml_loud"}
+  game.id &gt;
+  .row
+    .col-md-1
+      %a.btn.btn-default.glyphicon.glyphicon-eye-open{:href => "#{game_path(game)}"}
+    .col-md-5
+      .row
+        .col-md-10.team{:style => "background-image: url(#{game.first_team.logo(:medium)}); background-repeat:no-repeat;    background-position:1000px 1000px;"}
+          %h3.text-right
+            = game.first_team.name
+            - if game.first_team_score > game.second_team_score
+              %span.glyphicon.glyphicon-star-empty
+        .col-md-2
+          %h1.text-right
+            = game.first_team_score
+    .col-md-1
+      %h1.text-center :
+    .col-md-5
+      .row
+        .col-md-2
+          %h1.text-left
+            = game.second_team_score
+        .col-md-10.team{:style => "background-image: url(#{game.second_team.logo(:medium)}); background-repeat:no-repeat;    background-position:1000px 1000px;"}
+          %h3.text-left
+            - if game.first_team_score < game.second_team_score
+              %span.glyphicon.glyphicon-star
+            %a{:href => "#{team_path(game.second_team)}"}
+              = game.second_team.name
+            %h3

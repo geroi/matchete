@@ -1,0 +1,11 @@
+var AuthorPic = React.createClass({
+  render: function(){
+    return (
+      <div className='author-pic col-md-1'>
+          <a href={"/player/" + this.props.author.id}>
+              <img src={"<%= asset_path 'player.jpg'%>"} alt={this.props.author.name} className='img-circle' />
+          </a>
+      </div>
+    )
+  }
+})

@@ -1,0 +1,7 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "teams/search.js"
+%h1 Поиск команды
+= form_tag(look_for_teams_path, remote: true, method: :post, :id => 'teams_search',:class => "form") do
+  = text_field_tag :name, nil, placeholder: 'Введите имя для поиска', class: 'form-control'
+  = submit_tag 'Искать', class: 'btn btn-primary'
+= render partial: '/teams/partials/teams_search_results', locals: {teams: []}

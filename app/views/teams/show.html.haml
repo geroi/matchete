@@ -1,0 +1,19 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "teams/show.js"
+.row{"data-team-id" => "#{@team.id}"}
+  = render partial: '/teams/partials/heading', locals: {team: @team}
+.row
+  .col-md-4.col-md-offset-8
+    = render inline: @action_partial
+.row
+  .col-md-2
+    = render partial: '/teams/partials/team_color_box', locals: {team: @team}
+  .col-md-10
+    = render partial: '/teams/partials/host_info', locals: {team: @team, host: @team.host}
+.row
+  .col-md-10.col-md-offset-2
+    = render partial: '/teams/partials/players_list', locals: {team: @team, players: @team.players}
+.row
+  = render partial: '/teams/partials/played_games_list', locals: {games: @team.games}
+.row
+  = react_component 'TeamChatBox', source: "#{@team.id}/messages", team: @team, messages: @team.time_ordered_messages.limit(5).reverse.to_json(include: :author), player: current_player, authenticity_token: form_authenticity_token

@@ -1,0 +1,5 @@
+/ width, height
+= javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU"
+= javascript_include_tag "common/map_picker.js", debug: false
+.col-md-12
+  #map{:style => "width: #{width}; height:#{height};"}

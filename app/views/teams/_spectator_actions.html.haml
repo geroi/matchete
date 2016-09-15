@@ -1,0 +1,4 @@
+- unless @team.claimers.include?(@current_player) or @team.invited.include?(@current_player)
+  = link_to 'Выслать заявку в команду', become_teammate_team_path(@team,@current_player), method: :post, class: 'btn btn-primary'
+- else
+  = link_to 'Отозвать заявку', delete_teammate_team_path(@team,@current_player),method: :post, class: 'btn btn-primary'

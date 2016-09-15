@@ -1,0 +1,21 @@
+- content_for :javascript_includes do
+  = javascript_include_tag "teams/search.js"
+.row
+  .col-lg-12.col-md-12.col-sm-12.col-xs-12
+    .ibox
+      .ibox-title
+        %h4 Поиск команды
+      .ibox-content
+        = form_tag(look_for_teams_path, remote: true,  method: :post, :id => 'teams_search',:class => "form") do
+          .form-group
+            = label_tag :name,'Название команды'
+            = text_field_tag :name, nil, placeholder: 'Введите имя для поиска', class: 'form-control'
+          .form-group
+            - types_ary = []
+            - @types.each {|type| types_ary.push([type.name.to_s.capitalize, type.id]) }
+            - types_ary.unshift(['Любой',nil])
+            = label_tag :type,'Вид спорта'
+            = select_tag :type, options_for_select(types_ary), class:'form-control'
+          .form-group
+            = submit_tag 'Искать', class: 'form-group btn btn-default'
+        = render partial: 'teams_search_results', locals: {teams: []}

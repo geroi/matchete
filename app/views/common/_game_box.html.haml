@@ -1,0 +1,41 @@
+-if game
+  - content_for :javascript_includes do
+    = javascript_include_tag "//api-maps.yandex.ru/2.1/?lang=ru_RU"
+    = javascript_include_tag 'common/playground_card.js', debug: false
+  .game-card.island-nude
+    .row.no-mp
+      .col-md-12.no-mp
+        .row.no-mp
+          .col-md-2.no-mp.island-nude{:style => "height: 436px;"}
+            .row.no-mp
+              .col-md-12.no-mp
+                = image_tag game.host.avatar.url(:medium), class: 'img-circle avatar-large center-block'
+                %hr/
+            - game.players.each do |player|
+              .row.no-mp
+                .center-block.col-md-12.no-mp
+                  = image_tag player.avatar.url(:medium), class: 'img-circle avatar-small  center-block'
+          .col-md-10.no-mp
+            .row.no-mp
+              .col-md-12.no-mp{:style => "height:400px;"}
+                .row
+                  .col-md-6.island{:style => "left: 5%; top: 30px; z-index:2;"}
+                    .row
+                      .col-md-12.no-mp
+                        %h2.text-left
+                          = game.type.name
+                        %hr/
+                        %h2.text-left
+                          = Russian::strftime(game.game_date_time, "%d %B")
+                        %hr/
+                        %h2.text-left
+                          = game.playground.address
+                %input#playground{:type => "hidden", :value => "#{game.playground.to_json}"}/
+                #map{:style => "height: 400px; position: absolute; top: 0px; left: 0px; z-index: 0;"}
+            .row.no-mp
+              .col-md-12.no-mp
+                .island-nude
+                  .row.no-mp
+                    .col-md-2.col-md-offset-6= render partial:"buttons/show_game_full", locals: {game: game}
+                    .col-md-2= render partial:"buttons/edit_game_full", locals: {game: game}
+                    .col-md-2= render partial:"buttons/delete_game_full", locals: {game: game}

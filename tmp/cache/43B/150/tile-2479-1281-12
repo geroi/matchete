@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idi%:geometry{;I"
+Point;T:coordinates[f55.7018136800191f37.9168195876815:properties{	:balloonContentHeaderI"�<div class='row'>
+    <div class='col-md-4'>
+        <a href='32'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/32'>
+            <p>
+                <strong>ГБОУ СОШ №2051 «Педагогический комплекс»</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"_<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>проспект Защитников Москвы, дом 9, корпус 2</h5>
+    <h5>"Юго-Восточный административный округ"</h5>
+    <h5>"район Некрасовка"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/32' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T:@created_atf1463588340.5547383:@expires_in0

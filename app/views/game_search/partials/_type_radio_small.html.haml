@@ -1,0 +1,11 @@
+/ types
+.row
+  - types.each_with_index do |type, index|
+    .col-md-2
+      %label.radio-inline
+        %input{:name => "game[type_id]", :type => "radio", :value => ""}/
+        = type.id
+        "  #{checked=checked if index == 0}/&gt;
+        %img{:src => ""}/
+        = type.logo.url(:thumb)
+        " class='type-thumb img-circle'&gt;

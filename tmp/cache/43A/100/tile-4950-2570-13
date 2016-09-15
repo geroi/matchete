@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idiQ:geometry{;I"
+Point;T:coordinates[f55.691634707971f37.5439515888082:properties{	:balloonContentHeaderI"O<div class='row'>
+    <div class='col-md-4'>
+        <a href='76'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/76'>
+            <p>
+                <strong>ГБОУ СОШ №2086</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"I<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Ломоносовский проспект, дом 12</h5>
+    <h5>"Юго-Западный административный округ"</h5>
+    <h5>"Гагаринский район"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/76' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T:@created_atf1463588336.8729038:@expires_in0

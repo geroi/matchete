@@ -1,0 +1,87 @@
+o: ActiveSupport::Cache::Entry:@value{:	typeI"FeatureCollection:ET:features[{	;I"Feature;T:idi*:geometry{;I"
+Point;T:coordinates[f55.7191327474708f37.5758842254579:properties{	:balloonContentHeaderI"R<div class='row'>
+    <div class='col-md-4'>
+        <a href='37'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/37'>
+            <p>
+                <strong>ГБОУ Школа №171</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T:balloonContentI"X<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Комсомольский проспект, дом 43, строение 1</h5>
+    <h5>"Центральный административный округ"</h5>
+    <h5>"район Хамовники"</h5>
+</div>
+</div>
+;T:balloonContentFooterI"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/37' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T:hintContentI"@общеобразовательное учреждение;T{	;I"Feature;T;
+iU;{;I"
+Point;T;[f55.7134767197161f37.6439115261143;{	;I"O<div class='row'>
+    <div class='col-md-4'>
+        <a href='80'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/80'>
+            <p>
+                <strong>ГБПОУ КСУ №32</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"T<div class='row'>
+<div class='col-md-12'>
+    <h5>учреждение среднего профессионального образования</h5>
+    <h5>2-й Павелецкий проезд, дом 4А</h5>
+    <h5>"Южный административный округ"</h5>
+    <h5>"Донской район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/80' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"dучреждение среднего профессионального образования;T{	;I"Feature;T;
+iX;{;I"
+Point;T;[f55.70924032852f37.6193856825112;{	;I"R<div class='row'>
+    <div class='col-md-4'>
+        <a href='83'>
+            <span class="glyphicon glyphicon-record"></span>
+        </a>
+    </div>
+    <div class='col-md-8'>
+        <a href='/playgrounds/83'>
+            <p>
+                <strong>ГБОУ Школа №547</strong>
+            </p>
+        </a>
+    </div>
+</div>
+;T;I"7<div class='row'>
+<div class='col-md-12'>
+    <h5>общеобразовательное учреждение</h5>
+    <h5>Малая Тульская улица, дом 15</h5>
+    <h5>"Южный административный округ"</h5>
+    <h5>"Даниловский район"</h5>
+</div>
+</div>
+;T;I"�<div class='row'>
+    <div class='col-md-12'>
+        <a href='/playgrounds/83' class='btn btn-default pull-right'><span class='glyphicon glyphicon-eye-open'>Смотреть</span></a>
+    </div>
+</div>
+;T;I"@общеобразовательное учреждение;T:@created_atf1463588336.8968558:@expires_in0

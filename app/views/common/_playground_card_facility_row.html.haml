@@ -1,0 +1,13 @@
+/name, method_name, glyphicon
+%tr
+  %td
+    - if glyphicon
+      %span{class: ['glyphicon',glyphicon]}
+    %span #{name.capitalize}
+  %td
+    -if playground.send(method_name)
+      - case method_name
+        - when 'website'
+          %a{href: "http://#{playground.send(method_name)}"}=playground.send(method_name).mb_chars.capitalize
+        - else
+          =playground.send(method_name).mb_chars.capitalize

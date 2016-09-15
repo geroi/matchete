@@ -1,0 +1,23 @@
+/ games
+.row
+  .col-md-12
+    .row
+      .col-md-1 Название
+      .col-md-1 Создатель
+      .col-md-1 Вид игры
+      .col-md-1 Площадка
+      .col-md-1 Время
+      .col-md-1 Игроки
+      .col-md-1 Действия
+    - games.each do |game|
+      .row
+        .col-md-1= game.name
+        .col-md-1= game.host.name
+        .col-md-1= game.type.name
+        .col-md-1= game.playground.name
+        .col-md-1= game.game_date_time
+        .col-md-1
+          - game.players.each do |player|
+            %p= player.name
+        .col-md-1= render partial:"buttons/show_game", locals: {game: game}
+        .col-md-1= render partial:"buttons/edit_game", locals: {game: game}

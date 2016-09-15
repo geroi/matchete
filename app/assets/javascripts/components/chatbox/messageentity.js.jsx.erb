@@ -1,0 +1,32 @@
+// var MessageEntity = React.createClass({
+//   render: function(){
+//     return (
+//       <div className='row message-entity'>
+//         <AuthorPic author={this.props.message.author}/>
+//         <TextBox message={this.props.message} />
+//       </div>
+//     )
+//   }
+// })
+
+moment.locale('ru');
+var MessageEntity = React.createClass({
+  render: function(){
+    return (
+      <div className={"chat-message "+this.props.alignment}>
+	  	<img className="message-avatar" src={this.props.message.author.avatar} alt="" />
+		  <div className="message">
+		      <a className="message-author" href="#">
+		      	{this.props.message.author.name}
+		      </a>
+		      <span className="message-date">
+		      	{moment(this.props.message.created_at).fromNow()}
+		      </span>
+		          <span className="message-content">
+		              {this.props.message.text}
+		          </span>
+		  </div>
+	</div>
+    )
+  }
+})

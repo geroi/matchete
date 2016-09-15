@@ -1,0 +1,10 @@
+/name, method_name
+%tr
+  %td
+    %span #{name.capitalize}
+  - if playground.send(method_name)
+    %td
+      %span.glyphicon.glyphicon-ok
+  - else
+    %td
+      %span.glyphicon.glyphicon-remove
